@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "updated": "2026-10-13T10:13:03Z",
+  "updated": "2026-10-13T10:17:50Z",
   "note": "created by CardKeyManager",
   "apps": {
     "DEMO_APP": {
-      "name": "示例受保护程序",
+      "name": "阿尔比恩",
       "keys": {
-        "TMUFPHWGDUCMCU6Q": {
-          "key": "TMUF-PHWG-DUCM-CU6Q",
+        "AHAT6QP9URPJVGTF": {
+          "key": "AHAT-6QP9-URPJ-VGTF",
           "note": "",
-          "created": "2026-10-13T10:12:01Z",
-          "expire": "2026-10-20T10:12:01Z",
+          "created": "2026-10-13T10:17:48Z",
+          "expire": "2026-11-12T10:17:48Z",
           "max_uses": 1,
           "uses": 0,
           "bind_machine": "",
-          "bind_on_first_use": false,
+          "bind_on_first_use": true,
           "machine": "",
           "revoked": false,
           "last_used": ""
@@ -22,5 +22,5 @@
       }
     }
   },
-  "sig": "05c648ff173b2aaeb6dba9e54119828ecba11f2cd642b825c8928114aa7fe18a"
+  "sig": "63215049cf33d501fd03ce76fea4d4259a5b94028a608f2deb8131d024ca5c83"
 }
