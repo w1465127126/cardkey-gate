@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13T11:23:55Z",
+  "updated": "2026-10-13T11:26:02Z",
   "note": "卡密库 · 放在 GitHub 仓库根目录，客户端通过 raw/API 读取",
   "apps": {
     "DEMO_APP": {
