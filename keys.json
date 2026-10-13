@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13T11:40:54Z",
+  "updated": "2026-10-13T11:43:58Z",
   "note": "卡密库 · 放在 GitHub 仓库根目录，客户端通过 raw/API 读取",
   "apps": {
     "DEMO_APP": {
@@ -373,7 +373,25 @@
           "last_used": ""
         }
       }
+    },
+    "__VERIFY_CONSUME__": {
+      "name": "自动验收（用完即删）",
+      "keys": {
+        "VERIFYCONSUME9Q4T": {
+          "key": "VERIF-YCON-SUME-9Q4T",
+          "note": "自动验收生成",
+          "created": "2026-10-13T11:43:58Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        }
+      }
     }
   },
-  "sig": "4ad502fd03b8fc63d45d44b0aa2a65abf876033efbf6ffe3be8a319c323e7cda"
+  "sig": "986caf61569c3599751dfd87d794c05ede9bb1de89493ccaeb45a8c671245cfb"
 }
