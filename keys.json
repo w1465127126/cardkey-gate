@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13T15:43:29Z",
+  "updated": "2026-10-13T16:04:42Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -30,10 +30,10 @@
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": ""
+          "last_used": "2026-10-13T16:04:42Z"
         }
       }
     }
   },
-  "sig": "2f5feadf97ff50211cfcadb3735cdf8152ffa1101efdb0fa6b1d7675f16fbc4d"
+  "sig": "41526e4b7b09d999107cdd23d867a983d399405c78226fed953c1b6b7d2aba55"
 }
