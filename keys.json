@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13T10:17:50Z",
+  "updated": "2026-10-13T10:19:35Z",
   "note": "created by CardKeyManager",
   "apps": {
     "DEMO_APP": {
@@ -18,9 +18,22 @@
           "machine": "",
           "revoked": false,
           "last_used": ""
+        },
+        "QYXAMMJPVR3YMCEF": {
+          "key": "QYXA-MMJP-VR3Y-MCEF",
+          "note": "",
+          "created": "2026-10-13T10:19:32Z",
+          "expire": "2026-11-12T10:19:32Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "C96C4A4173A7F307",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
         }
       }
     }
   },
-  "sig": "63215049cf33d501fd03ce76fea4d4259a5b94028a608f2deb8131d024ca5c83"
+  "sig": "c1207a627de3384394cfac22dbf9406f2c23fa149d5339d69fa2ecb4b997df67"
 }
