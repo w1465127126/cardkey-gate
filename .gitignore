@@ -16,6 +16,7 @@ build/
 
 # 本地私有配置（可能含 token / secret，绝不入库）
 app_config.json
+keycheck.json
 .cardkey-gate/
 
 # 本地运行产物

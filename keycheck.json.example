@@ -1,4 +1,5 @@
 {
+  "_说明": "复制成 keycheck.json，和 ② 卡密校验器.exe 放同一目录；secret 与受保护程序、管理端保持一致",
   "repo": "你的用户名/你的仓库名",
   "path": "keys.json",
   "branch": "main",

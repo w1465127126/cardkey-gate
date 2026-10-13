@@ -11,9 +11,10 @@ cardkey-gate/
 ├── cardkey_sdk.py          # 受保护程序接入用的 SDK
 ├── keycheck_cli.py         # 控制台校验器（给 bat 调用）
 ├── demo_protected_app.py   # 示例受保护程序（改 main_window() 变成你的）
-├── keys.json               # 卡密库模板 —— 传到 GitHub 仓库
+├── keys.json               # 卡密库（含 HMAC 签名）—— 传到 GitHub 仓库
 ├── build.bat               # 一键打包 exe
-├── app_config.json.example # 配置模板
+├── app_config.json.example # 配置模板（app_config.json 含 token/secret，已 gitignore）
+├── keycheck.json.example   # 校验器配置模板（keycheck.json 含 secret，已 gitignore）
 ├── tests/
 │   ├── test_store.py       # 37 项离线自测（已全绿）
 │   └── test_e2e_http.py    # 11 项端到端 HTTP 测试（已全绿）
@@ -197,6 +198,13 @@ start "" "MyRealApp.exe"
    ```
    或者写进 `CONFIG["secret"]`
 3. 之后任何人改了 `apps` 里的内容，`sig` 就对不上 → 直接 `SIG_INVALID` 拒绝
+4. **删掉 `sig` 字段同样被拒**。`check_sig()` 默认 `require=True`：只要配了 secret，
+   库就必须带有效签名，缺签名 = 拒绝。否则攻击者把 `sig` 一删就能绕过全部签名校验。
+   过渡期若还想跑明文库，显式传 `require_sig=False`。
+
+> ⚠️ **secret 绝对不能进仓库。** 公开仓库里的任何文件都是全世界可见的，
+> 把 secret 写进 `keycheck.json` / `app_config.json` 一起推上去，等于没开签名。
+> 这两个文件都已在 `.gitignore` 里，仓库里只留 `.example` 模板。
 
 代价：secret 内嵌在 exe 里，会逆向的人能抠出来。只挡顺手改 JSON 的人。
 
@@ -255,3 +263,21 @@ build.bat
 
 **Q：能换 Gitee / 自建服务器吗？**
 能。`GitHubStore` 的 `raw_url` 参数直接吃任意 HTTP JSON 地址，写操作换成你自己的 PUT 接口即可。管理端的"推送"逻辑在 `keygen_gui.py` 的 `on_push()`，改这里就行。
+
+---
+
+## 九、本仓库当前部署状态
+
+| 项 | 值 |
+|---|---|
+| 仓库 | `w1465127126/cardkey-gate` —— **公开（public）** |
+| 卡密库 | 根目录 `keys.json`，带 `sig`（HMAC-SHA256）签名 |
+| 客户端读取 | 不需要 token：`https://raw.githubusercontent.com/w1465127126/cardkey-gate/main/keys.json` |
+| 管理端写入 | `%USERPROFILE%\.cardkey-gate\config.json` 里配 `repo` + `token` + `secret` |
+| 签名状态 | **已启用**。篡改 `apps` 或删掉 `sig` 一律 `SIG_INVALID` |
+
+**secret 不在本仓库内**，只存在于两处本地文件（均已被 `.gitignore` 排除）：
+`%USERPROFILE%\.cardkey-gate\config.json`（管理端/校验器读取）和 exe 同目录的 `keycheck.json`。
+
+这样一来客户端不需要内嵌任何 token，仓库被公开也不会泄露发卡能力——因为
+改库需要 GitHub 写权限，伪造库需要 secret，两者都不在仓库里。

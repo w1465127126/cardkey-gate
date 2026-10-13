@@ -104,6 +104,17 @@ def main():
     bad["apps"]["APP1"]["keys"]["ZZZZ"] = {"revoked": False, "uses": 0}
     chk("被篡改拒绝", cs.verify(bad, "APP1", next(iter(st_s["apps"]["APP1"]["keys"])), secret="mysecret")["code"] == "SIG_INVALID")
 
+    # 关键：把 sig 字段整个删掉也必须拒绝，否则等于没开签名
+    stripped = json.loads(json.dumps(st_s))
+    stripped.pop("sig", None)
+    chk("抹掉 sig 字段也拒绝",
+        cs.verify(stripped, "APP1", next(iter(st_s["apps"]["APP1"]["keys"])), secret="mysecret")["code"] == "SIG_INVALID")
+    chk("require_sig=False 时无签名放行",
+        cs.verify(stripped, "APP1", next(iter(st_s["apps"]["APP1"]["keys"])), secret="mysecret", require_sig=False)["ok"])
+    chk("不配 secret 时明文可用",
+        cs.verify(stripped, "APP1", next(iter(st_s["apps"]["APP1"]["keys"])))["ok"])
+    chk("check_sig 不污染原字典", "sig" not in stripped)
+
     print("\n=== 10. 本地授权文件 ===")
     mid = cs.machine_id()
     chk("机器码16位", len(mid) == 16, mid)

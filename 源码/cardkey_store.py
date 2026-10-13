@@ -256,18 +256,33 @@ def _canonical(store: dict) -> bytes:
     return json.dumps(body, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
 
 
+def compute_sig(store: dict, secret: str) -> str:
+    """算出卡密库的 HMAC-SHA256 签名（纯函数，不改动 store）。"""
+    return hmac.new(secret.encode("utf-8"), _canonical(store), hashlib.sha256).hexdigest()
+
+
 def sign_store(store: dict, secret: str) -> str:
-    sig = hmac.new(secret.encode("utf-8"), _canonical(store), hashlib.sha256).hexdigest()
+    """给卡密库签名，写入 store["sig"]，返回签名值。"""
+    sig = compute_sig(store, secret)
     store["sig"] = sig
     return sig
 
 
-def check_sig(store: dict, secret: str) -> bool:
+def check_sig(store: dict, secret: str, require: bool = True) -> bool:
+    """校验卡密库签名。
+
+    secret 为空      -> 不校验，返回 True（保持明文模式可用）。
+    secret 非空      -> 必须带 sig 且完全匹配，否则返回 False。
+                        漏掉这一步就等于没开签名：攻击者只要把 sig 字段
+                        删掉就能绕过，所以默认 require=True 强制要求签名存在。
+    require=False    -> 只在库自带 sig 时才比对（过渡期用，不推荐）。
+    """
     if not secret:
         return True
-    if not store.get("sig"):
-        return True  # 库里没签名就不校验，方便先用明文跑起来
-    return hmac.compare_digest(store["sig"], sign_store(store, secret))
+    stored = store.get("sig")
+    if not stored:
+        return not require
+    return hmac.compare_digest(str(stored), compute_sig(store, secret))
 
 
 # --------------------------------------------------------------------------
@@ -336,12 +351,14 @@ def verify(
     machine: str = "",
     secret: str = "",
     consume: bool = False,
+    require_sig: bool = True,
 ) -> dict:
     """校验一张卡密。
 
     返回 dict: {ok, code, reason, record, app}
 
     consume=True 时，成功后会把 uses+1 / 首次绑定机器写回 record（由调用方负责推回仓库）。
+    require_sig=True（默认）时，配置了 secret 就必须校验签名，缺签名一律拒绝。
     """
     out = {"ok": False, "code": "KEY_NOT_FOUND", "reason": REASON_TEXT["KEY_NOT_FOUND"],
            "record": None, "app": None}
@@ -351,7 +368,7 @@ def verify(
         out.update(code="BAD_INPUT", reason=REASON_TEXT["BAD_INPUT"])
         return out
 
-    if secret and not check_sig(store, secret):
+    if secret and not check_sig(store, secret, require=require_sig):
         out.update(code="SIG_INVALID", reason=REASON_TEXT["SIG_INVALID"])
         return out
 
