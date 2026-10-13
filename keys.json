@@ -1,39 +1,12 @@
 {
   "version": 1,
-  "updated": "2026-10-13T17:43:14Z",
+  "updated": "2026-10-13T17:46:14Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
       "name": "阿尔比恩",
-      "keys": {
-        "4RKW7EYG7NXRDKDP": {
-          "key": "4RKW-7EYG-7NXR-DKDP",
-          "note": "",
-          "created": "2026-10-13T17:11:00Z",
-          "expire": "2026-10-20T17:11:00Z",
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": "2026-10-13T17:11:55Z"
-        },
-        "39FEVWWKNEP6GFFJ": {
-          "key": "39FE-VWWK-NEP6-GFFJ",
-          "note": "",
-          "created": "2026-10-13T17:23:40Z",
-          "expire": "2026-10-20T17:23:40Z",
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": "2026-10-13T17:43:14Z"
-        }
-      }
+      "keys": {}
     }
   },
-  "sig": "efde1acc8b5c3915db7b5c15f2d27de251b230c9626729b249ec7e81d45eace1"
+  "sig": "4f8e7c3b4b84664215509afcc6862bb189af585d797c550ddd9c669b152a34ca"
 }
