@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13T12:11:45Z",
+  "updated": "2026-10-13T12:12:45Z",
   "note": "卡密库 · 放在 GitHub 仓库根目录，客户端通过 raw/API 读取",
   "apps": {
     "ALBION_FISH": {
@@ -18,6 +18,136 @@
           "machine": "",
           "revoked": false,
           "last_used": "2026-10-13T12:03:00Z"
+        },
+        "CE9XHDF9RNDC9MPR": {
+          "key": "CE9X-HDF9-RNDC-9MPR",
+          "note": "",
+          "created": "2026-10-13T12:12:37Z",
+          "expire": "2026-10-20T12:12:37Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "4UCFQCJ9AT647DAF": {
+          "key": "4UCF-QCJ9-AT64-7DAF",
+          "note": "",
+          "created": "2026-10-13T12:12:37Z",
+          "expire": "2026-10-20T12:12:37Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "DVNTGV7R94G6WDRR": {
+          "key": "DVNT-GV7R-94G6-WDRR",
+          "note": "",
+          "created": "2026-10-13T12:12:37Z",
+          "expire": "2026-10-20T12:12:37Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "X3TQPXVT4DHHEUN7": {
+          "key": "X3TQ-PXVT-4DHH-EUN7",
+          "note": "",
+          "created": "2026-10-13T12:12:37Z",
+          "expire": "2026-10-20T12:12:37Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "9R3J3KQXNPT4YEQW": {
+          "key": "9R3J-3KQX-NPT4-YEQW",
+          "note": "",
+          "created": "2026-10-13T12:12:37Z",
+          "expire": "2026-10-20T12:12:37Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "NY3K7AXHP4VA6DWN": {
+          "key": "NY3K-7AXH-P4VA-6DWN",
+          "note": "",
+          "created": "2026-10-13T12:12:37Z",
+          "expire": "2026-10-20T12:12:37Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "ERF3FEKNKV4CYJKV": {
+          "key": "ERF3-FEKN-KV4C-YJKV",
+          "note": "",
+          "created": "2026-10-13T12:12:37Z",
+          "expire": "2026-10-20T12:12:37Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "6F6GMHG4GK9TU6QP": {
+          "key": "6F6G-MHG4-GK9T-U6QP",
+          "note": "",
+          "created": "2026-10-13T12:12:37Z",
+          "expire": "2026-10-20T12:12:37Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "6AXHX73YF7DEC4K6": {
+          "key": "6AXH-X73Y-F7DE-C4K6",
+          "note": "",
+          "created": "2026-10-13T12:12:37Z",
+          "expire": "2026-10-20T12:12:37Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "G9KYRKKK9CYGFGVK": {
+          "key": "G9KY-RKKK-9CYG-FGVK",
+          "note": "",
+          "created": "2026-10-13T12:12:37Z",
+          "expire": "2026-10-20T12:12:37Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
         }
       }
     },
@@ -170,5 +300,5 @@
       }
     }
   },
-  "sig": "83a675c64d9b4aee5457f3b53e85ebb3117a5a8394c075aa7453044ea1c82d68"
+  "sig": "4137ea8c80fdae76f19d6be8e8acc64aed4dcbe875f84ee83c4b46d5c52b1d88"
 }
