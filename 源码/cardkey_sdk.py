@@ -220,7 +220,8 @@ def gate(app_id: str = "", repo: str = "", raw_url: str = "", path: str = "",
 
     # ---- 1. 本地授权 ----
     lic = cs.load_license(lp)
-    if lic and not force_prompt and cs.check_license(lic, app_id, machine):
+    secret = CONFIG.get("secret", "")
+    if lic and not force_prompt and cs.check_license(lic, app_id, machine, secret):
         issued = lic.get("issued", "")
         age_days = 9999
         try:
@@ -228,19 +229,24 @@ def gate(app_id: str = "", repo: str = "", raw_url: str = "", path: str = "",
         except Exception:
             pass
         if age_days <= CONFIG.get("offline_grace_days", 30):
-            # 有网时顺手复核一次；拉不到库就按离线继续
+            # 有网时顺手复核一次。注意：只有【确实拉不到库】才按离线继续，
+            # 其余一律视为授权失效 —— 早期版本把 KEY_NOT_FOUND 之类也当成
+            # "网络问题"放行，结果伪造一个 license.dat 就能永久白嫖。
             try:
                 r = verify_key(lic.get("key", ""), app_id, machine)
-                if r.get("ok"):
-                    return True
-                if r.get("code") in ("REVOKED", "EXPIRED", "EXHAUSTED", "MACHINE_MISMATCH"):
-                    _toast_err(title, f"授权已失效：{r['reason']}\n\n请重新输入卡密。")
-                    os.remove(lp) if os.path.exists(lp) else None
-                    lic = None
-                else:
-                    return True
             except Exception:
-                return True  # 网络问题不打断老用户
+                return True  # 真·异常，不打断老用户
+            if r.get("ok"):
+                return True
+            if r.get("code") in ("STORE_ERROR", "OFFLINE"):
+                return True  # 拉不到库，按离线继续
+            _toast_err(title, f"授权已失效：{r['reason']}\n\n请重新输入卡密。")
+            try:
+                if os.path.exists(lp):
+                    os.remove(lp)
+            except Exception:
+                pass
+            lic = None
 
     # ---- 2. 弹框 + 联网校验 ----
     tries = 0
@@ -252,14 +258,14 @@ def gate(app_id: str = "", repo: str = "", raw_url: str = "", path: str = "",
 
         r = verify_key(key, app_id, machine)
         if r.get("ok"):
-            cs.save_license(cs.make_license(app_id, key, machine), lp)
+            cs.save_license(cs.make_license(app_id, key, machine, secret), lp)
             _toast_ok(title, "验证成功，欢迎使用！")
             return True
 
         if r.get("code") == "STORE_ERROR":
             # 拉库失败：本地没有有效授权才拦
             ok = False
-            if CONFIG.get("allow_offline") and lic and cs.check_license(lic, app_id, machine):
+            if CONFIG.get("allow_offline") and lic and cs.check_license(lic, app_id, machine, secret):
                 _toast_ok(title, "网络不可用，使用本地授权进入。")
                 ok = True
             if ok:

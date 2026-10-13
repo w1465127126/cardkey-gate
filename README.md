@@ -188,6 +188,15 @@ start "" "MyRealApp.exe"
 **离线容错**：通过一次后写 `%APPDATA%\cardkey-gate\license.dat`，30 天内断网也能进；
 超过 30 天必须联网复核一次。想改成每次都要联网，把 `gate(..., offline_grace_days=0)`。
 
+> ⚠️ **只有"真的拉不到库"才走离线容错。** `gate()` 收到 `STORE_ERROR` / `OFFLINE`
+> 才放行；`KEY_NOT_FOUND` / `REVOKED` / `EXPIRED` 之类属于"库说不行"，一律判失效并
+> 清除本地授权。早期版本把 `KEY_NOT_FOUND` 也当成网络问题放行，配合下面这个坑
+> 就能白嫖 —— 现在两条都堵上了。
+
+> ⚠️ **配了 secret 后，`license.dat` 的签名是 HMAC-SHA256**，拿不到 secret 就伪造不出来。
+> 没配 secret 时退回普通 SHA256 —— 公式是公开的，任何人都能照着造一份合法授权文件。
+> **想真正挡住白嫖，secret 必须配。**
+
 ---
 
 ## 五、可选：开启 HMAC 签名（防手改 JSON）
@@ -293,3 +302,60 @@ build.bat
 | 签名正确 | 放行 | 放行 |
 | 篡改 `apps` 内容 | 拒绝 | 拒绝 |
 | **直接删掉 `sig` 字段** | **放行（漏洞）** | **拒绝** |
+| **伪造 `license.dat`** | **放行（漏洞）** | **拒绝** |
+| **库里不存在的卡密 + 合法签名的授权文件** | **放行（漏洞）** | **拒绝** |
+
+---
+
+## 十、接入到现成的 exe（外挂式启动器）
+
+目标程序不是自己写的、甚至没有源码（Nuitka / PyInstaller 编译成品、别人的 exe）时，
+**不要去改它内部** —— 用启动器套一层：双击启动器 → 先过卡密 → 再拉起主体。
+
+```
+你的程序\
+├── 你的程序.exe        ← 卡密启动器（我们的，占用原文件名，快捷方式不用改）
+├── AlbionCore.exe      ← 真正的主体（原名改过来，依赖的 DLL 都还在同目录）
+└── 卡密授权说明（先看我）.txt
+```
+
+启动器核心十来行：
+
+```python
+import os, subprocess, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import cardkey_sdk as sdk
+
+APP_ID  = "ALBION_FISH"
+REPO    = "w1465127126/cardkey-gate"
+RAW_URL = "https://raw.githubusercontent.com/w1465127126/cardkey-gate/main/keys.json"
+SECRET  = "……"                 # 编译进 exe
+CORE    = "AlbionCore.exe"
+
+def app_dir():
+    return os.path.dirname(os.path.abspath(
+        sys.executable if getattr(sys, "frozen", False) else __file__))
+
+if sdk.gate(app_id=APP_ID, repo=REPO, raw_url=RAW_URL, secret=SECRET,
+            title="你的程序 · 授权验证"):
+    subprocess.Popen([os.path.join(app_dir(), CORE)], cwd=app_dir(),
+                     creationflags=0x00000008)      # DETACHED_PROCESS
+    sys.exit(0)
+sys.exit(1)
+```
+
+打包用 `pyinstaller --onefile --windowed --hidden-import tkinter --hidden-import tkinter.ttk
+--hidden-import tkinter.messagebox`，产物改名成主体原来的文件名即可。
+
+**两个必踩的坑**（都实测过）：
+
+1. **绝不能把主体所在目录加进 `sys.path`。** 那里通常有 `python312.dll` / `_ssl.pyd`，
+   与启动器自己的解释器版本不同，一导入 `ssl` 就报
+   `ImportError: Module use of python312.dll conflicts with this version of Python`。
+   启动器自己的目录（`__file__`）可以加，主体目录不行。
+2. **配置必须编译进 exe，不要读同目录的 json。** 一旦读外部文件，
+   买家把 `secret` 改成空串、`raw_url` 指到自己的仓库，门禁就完全失效了。
+
+**能挡到什么程度**：挡得住"转发给别人用""换个 key 白嫖"这类普通用户；
+挡不住会用调试器/十六进制编辑器改启动器的人 —— 客户端里的任何限制都是这样。
+真在意就把核心校验放服务端。

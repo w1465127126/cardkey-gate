@@ -127,6 +127,43 @@ def main():
     if os.path.exists(lp2):
         os.remove(lp2)
 
+    print("\n=== 9. 伪造 license.dat 必须被拦（早期版本可绕过） ===")
+    sdk.CONFIG["raw_url"] = raw
+    SEC9 = "E2E_SECRET"
+    cs.sign_store(st, SEC9)                       # 开启签名模式
+    Handler.payload = cs.dump_store(st).encode("utf-8")
+    sdk.CONFIG["secret"] = SEC9
+
+    asked = []
+
+    def _fake_ask(*a, **k):
+        asked.append(1)
+        return None                                # 模拟用户直接取消
+
+    sdk._ask_gui = _fake_ask
+
+    # 9a: 攻击者照公开算法伪造 license.dat（没用 secret 签名）
+    lp3 = os.path.join(os.environ.get("TEMP", "/tmp"), "ck_e2e_lic3.dat")
+    cs.save_license(cs.make_license("DEMO_APP", "AAAA-BBBB-CCCC-DDDD", cs.machine_id()), lp3)
+    ok = sdk.gate(force_prompt=False, cache_path=lp3)
+    chk("伪造授权（无 secret 签名）不放行", ok is False, ok)
+    chk("被拦后要求重新输入卡密", len(asked) == 1, asked)
+
+    # 9b: 签名合法但卡密根本不存在 —— 早期版本会当成"网络问题"放行
+    lp4 = os.path.join(os.environ.get("TEMP", "/tmp"), "ck_e2e_lic4.dat")
+    cs.save_license(cs.make_license("DEMO_APP", "AAAA-BBBB-CCCC-DDDD", cs.machine_id(), SEC9), lp4)
+    asked.clear()
+    ok = sdk.gate(force_prompt=False, cache_path=lp4)
+    chk("签名合法但卡密不存在也不放行", ok is False, ok)
+    chk("失效授权文件被清理", not os.path.exists(lp4))
+    chk("被拦后同样要求重新输入", len(asked) == 1, asked)
+
+    sdk._ask_gui = orig
+    sdk.CONFIG["secret"] = ""
+    for _p in (lp3, lp4):
+        if os.path.exists(_p):
+            os.remove(_p)
+
     srv.shutdown()
 
     print(f"\n{'='*46}\n端到端结果：PASS={PASS}  FAIL={FAIL}\n{'='*46}")

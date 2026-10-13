@@ -588,21 +588,32 @@ class GitHubStore:
 # 本地授权缓存 license.dat
 # --------------------------------------------------------------------------
 
-def license_sig(app_id: str, key: str, machine: str) -> str:
-    return hashlib.sha256(f"{app_id}|{norm_key(key)}|{norm_key(machine)}".encode("utf-8")).hexdigest()
+def license_sig(app_id: str, key: str, machine: str, secret: str = "") -> str:
+    """本地授权文件 license.dat 的签名。
+
+    配了 secret -> 用 HMAC-SHA256。这是必须的：早期版本用的是「公开输入的普通
+    SHA256」，公式写在公开仓库里，任何人都能照着算出一个合法签名，
+    从而伪造 license.dat 白嫖（实测可绕过）。
+    没配 secret -> 退回普通 SHA256，此时 license.dat 依然可伪造，仅用于明文模式。
+    """
+    msg = f"{app_id}|{norm_key(key)}|{norm_key(machine)}".encode("utf-8")
+    if secret:
+        return hmac.new(secret.encode("utf-8"), msg, hashlib.sha256).hexdigest()
+    return hashlib.sha256(msg).hexdigest()
 
 
-def make_license(app_id: str, key: str, machine: str) -> dict:
+def make_license(app_id: str, key: str, machine: str, secret: str = "") -> dict:
     return {
         "app_id": app_id,
         "key": pretty_key(key),
         "machine": pretty_machine(machine),
         "issued": now_iso(),
-        "sig": license_sig(app_id, key, machine),
+        "sig": license_sig(app_id, key, machine, secret),
+        "v": 2 if secret else 1,
     }
 
 
-def check_license(lic: dict, app_id: str, machine: str) -> bool:
+def check_license(lic: dict, app_id: str, machine: str, secret: str = "") -> bool:
     if not isinstance(lic, dict):
         return False
     if lic.get("app_id") != app_id:
@@ -611,7 +622,7 @@ def check_license(lic: dict, app_id: str, machine: str) -> bool:
         return True
     return hmac.compare_digest(
         str(lic.get("sig", "")),
-        license_sig(app_id, lic.get("key", ""), lic.get("machine", "")),
+        license_sig(app_id, lic.get("key", ""), lic.get("machine", ""), secret),
     ) and machine_matches(lic.get("machine", ""), machine)
 
 

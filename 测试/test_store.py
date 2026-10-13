@@ -122,6 +122,15 @@ def main():
     chk("license 校验通过", cs.check_license(lic, "APP1", mid))
     chk("换机器失效", not cs.check_license(lic, "APP1", "DEADBEEFDEADBEEF"))
     chk("换 APP 失效", not cs.check_license(lic, "APP2", mid))
+
+    # secret 模式下 license.dat 必须用 secret 签名，否则攻击者照着公开算法就能伪造
+    lic_s = cs.make_license("APP1", keys[0], mid, "SEC1")
+    chk("带 secret 的 license 通过", cs.check_license(lic_s, "APP1", mid, "SEC1"))
+    chk("secret 不对则失效", not cs.check_license(lic_s, "APP1", mid, "SEC2"))
+    forged = cs.make_license("APP1", "AAAA-BBBB-CCCC-DDDD", mid)
+    chk("伪造 license 被拒（无 secret 签名）", not cs.check_license(forged, "APP1", mid, "SEC1"))
+    chk("明文模式兼容普通 SHA256", cs.check_license(forged, "APP1", mid))
+    chk("HMAC 版 sig 与明文版不同", cs.license_sig("APP1", keys[0], mid, "SEC1") != cs.license_sig("APP1", keys[0], mid))
     p = os.path.join(os.environ.get("TEMP", "/tmp"), "ck_test_lic.dat")
     cs.save_license(lic, p)
     chk("落盘再读一致", cs.load_license(p)["sig"] == lic["sig"])
