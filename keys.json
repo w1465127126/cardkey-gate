@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13T16:04:42Z",
+  "updated": "2026-10-13T17:07:59Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -18,22 +18,9 @@
           "machine": "",
           "revoked": false,
           "last_used": "2026-10-13T13:47:45Z"
-        },
-        "XDWTC6CNUCKNND9C": {
-          "key": "XDWT-C6CN-UCKN-ND9C",
-          "note": "10/3 7天闲鱼",
-          "created": "2026-10-13T15:43:02Z",
-          "expire": "2026-10-20T15:43:02Z",
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": "2026-10-13T16:04:42Z"
         }
       }
     }
   },
-  "sig": "41526e4b7b09d999107cdd23d867a983d399405c78226fed953c1b6b7d2aba55"
+  "sig": "6a836d41ee42e042d53ef5c60896f3a175d2a936b0013a981dfcd31f5601e9bd"
 }
