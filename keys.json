@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13T12:12:45Z",
+  "updated": "2026-10-13T12:13:15Z",
   "note": "卡密库 · 放在 GitHub 仓库根目录，客户端通过 raw/API 读取",
   "apps": {
     "ALBION_FISH": {
