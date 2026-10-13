@@ -1,15 +1,95 @@
 {
   "version": 1,
-  "updated": "2026-10-13T10:42:04Z",
+  "updated": "2026-10-13T10:45:59Z",
   "note": "卡密库 · 放在 GitHub 仓库根目录，客户端通过 raw/API 读取",
   "apps": {
     "DEMO_APP": {
       "name": "示例受保护程序",
-      "keys": {}
+      "keys": {
+        "ACDE3467GHJK9MNP": {
+          "key": "ACDE-3467-GHJK-9MNP",
+          "note": "示例卡密（永久，不限次数）",
+          "created": "2026-10-13T07:40:00Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        }
+      }
     },
     "ALBION_FISH": {
       "name": "奥尔比恩·钓鱼助手",
-      "keys": {}
+      "keys": {
+        "9G7HXGDAKEVYKGP6": {
+          "key": "9G7H-XGDA-KEVY-KGP6",
+          "note": "首发批次",
+          "created": "2026-10-13T09:41:31Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "K7UAPJQ7YV4JFQ76": {
+          "key": "K7UA-PJQ7-YV4J-FQ76",
+          "note": "首发批次",
+          "created": "2026-10-13T09:41:31Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "TNJFVMMRGMY4WRRF": {
+          "key": "TNJF-VMMR-GMY4-WRRF",
+          "note": "首发批次",
+          "created": "2026-10-13T09:41:31Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "9G3AVGQANY4C7369": {
+          "key": "9G3A-VGQA-NY4C-7369",
+          "note": "首发批次",
+          "created": "2026-10-13T09:41:31Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "XK4T3CFF7YQ6D4YY": {
+          "key": "XK4T-3CFF-7YQ6-D4YY",
+          "note": "首发批次",
+          "created": "2026-10-13T09:41:31Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        }
+      }
     },
     "阿尔比恩": {
       "name": "阿尔比恩",
@@ -30,5 +110,5 @@
       }
     }
   },
-  "sig": "a1bf6ab7aee588f9961835467f92a32edef023c1fca56f14ca614aa8543c7d9e"
+  "sig": "827b75435050daa92418800a67cc6e77d976ded1436af21401d433d31142c981"
 }
