@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "updated": "2026-10-13T09:41:31Z",
-  "note": "卡密库 · 放在 GitHub 仓库根目录，客户端通过 raw/API 读取",
+  "updated": "2026-10-13T10:12:04Z",
+  "note": "created by CardKeyManager",
   "apps": {
     "DEMO_APP": {
       "name": "示例受保护程序",
       "keys": {
-        "ACDE3467GHJK9MNP": {
-          "key": "ACDE-3467-GHJK-9MNP",
-          "note": "示例卡密（永久，不限次数）",
-          "created": "2026-10-13T07:40:00Z",
-          "expire": null,
-          "max_uses": 0,
+        "TMUFPHWGDUCMCU6Q": {
+          "key": "TMUF-PHWG-DUCM-CU6Q",
+          "note": "",
+          "created": "2026-10-13T10:12:01Z",
+          "expire": "2026-10-20T10:12:01Z",
+          "max_uses": 1,
           "uses": 0,
           "bind_machine": "",
           "bind_on_first_use": false,
@@ -20,77 +20,7 @@
           "last_used": ""
         }
       }
-    },
-    "ALBION_FISH": {
-      "name": "奥尔比恩·钓鱼助手",
-      "keys": {
-        "9G7HXGDAKEVYKGP6": {
-          "key": "9G7H-XGDA-KEVY-KGP6",
-          "note": "首发批次",
-          "created": "2026-10-13T09:41:31Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
-        },
-        "K7UAPJQ7YV4JFQ76": {
-          "key": "K7UA-PJQ7-YV4J-FQ76",
-          "note": "首发批次",
-          "created": "2026-10-13T09:41:31Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
-        },
-        "TNJFVMMRGMY4WRRF": {
-          "key": "TNJF-VMMR-GMY4-WRRF",
-          "note": "首发批次",
-          "created": "2026-10-13T09:41:31Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
-        },
-        "9G3AVGQANY4C7369": {
-          "key": "9G3A-VGQA-NY4C-7369",
-          "note": "首发批次",
-          "created": "2026-10-13T09:41:31Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
-        },
-        "XK4T3CFF7YQ6D4YY": {
-          "key": "XK4T-3CFF-7YQ6-D4YY",
-          "note": "首发批次",
-          "created": "2026-10-13T09:41:31Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
-        }
-      }
     }
   },
-  "sig": "768c6685941f8383ba3356ea83c2658edeac405e001ea95610afc08a4a58da34"
+  "sig": "05c648ff173b2aaeb6dba9e54119828ecba11f2cd642b825c8928114aa7fe18a"
 }
