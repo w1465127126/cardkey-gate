@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13T10:48:08Z",
+  "updated": "2026-10-13T10:51:10Z",
   "note": "卡密库 · 放在 GitHub 仓库根目录，客户端通过 raw/API 读取",
   "apps": {
     "DEMO_APP": {
@@ -9,26 +9,12 @@
     },
     "ALBION_FISH": {
       "name": "示例受保护程序",
-      "keys": {
-        "UQY6G9NW6YY34RUJ": {
-          "key": "UQY6-G9NW-6YY3-4RUJ",
-          "note": "",
-          "created": "2026-10-13T10:48:06Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
-        }
-      }
+      "keys": {}
     },
     "阿尔比恩": {
       "name": "阿尔比恩",
       "keys": {}
     }
   },
-  "sig": "51a4bac78b5980b516d7a069c84e352d7c4785c70dcef3bf6cc2b263ec540539"
+  "sig": "b7eabfb0b53247409b1ee524c593f3c21b286dd17a0a45d9ed98c5be415483c6"
 }
