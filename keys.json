@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "updated": "2026-10-13T11:59:30Z",
+  "updated": "2026-10-13T12:00:30Z",
   "note": "卡密库 · 放在 GitHub 仓库根目录，客户端通过 raw/API 读取",
   "apps": {
     "ALBION_FISH": {
       "name": "阿尔比恩",
       "keys": {
-        "FHDPVU6RCVV3WUFF": {
-          "key": "FHDP-VU6R-CVV3-WUFF",
+        "VUWRDKGJFCUCPRRU": {
+          "key": "VUWR-DKGJ-FCUC-PRRU",
           "note": "",
-          "created": "2026-10-13T11:58:36Z",
+          "created": "2026-10-13T12:00:15Z",
           "expire": null,
-          "max_uses": 1,
+          "max_uses": 0,
           "uses": 0,
           "bind_machine": "",
           "bind_on_first_use": false,
@@ -24,21 +24,21 @@
     "LEIDA": {
       "name": "阿尔比恩",
       "keys": {
-        "WQKN6DY7YU9MQTGA": {
-          "key": "WQKN-6DY7-YU9M-QTGA",
+        "Y6VCN7TYFUVE7P44": {
+          "key": "Y6VC-N7TY-FUVE-7P44",
           "note": "",
-          "created": "2026-10-13T11:58:42Z",
+          "created": "2026-10-13T12:00:08Z",
           "expire": null,
-          "max_uses": 1,
-          "uses": 1,
+          "max_uses": 0,
+          "uses": 0,
           "bind_machine": "",
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": "2026-10-13T11:59:30Z"
+          "last_used": ""
         }
       }
     }
   },
-  "sig": "85221a5bc5cf13400848e4a107445501e3b98fa8741aded11438493d5b61f005"
+  "sig": "01a743ba34ffff48db76db16251bea1bad3e16e50168ae352c9e090ab293e482"
 }
