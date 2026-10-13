@@ -16,13 +16,16 @@ cardkey-gate/
 ├── app_config.json.example # 配置模板（app_config.json 含 token/secret，已 gitignore）
 ├── keycheck.json.example   # 校验器配置模板（keycheck.json 含 secret，已 gitignore）
 ├── tests/
-│   ├── test_store.py       # 37 项离线自测（已全绿）
+│   ├── test_store.py       # 41 项离线自测（已全绿）
 │   └── test_e2e_http.py    # 11 项端到端 HTTP 测试（已全绿）
-└── dist/
+└── dist/                   # ← 编译产物，不在仓库里
     ├── CardKeyManager.exe  # 管理端（9.1 MB）
     ├── KeyCheck.exe        # 控制台校验器
     └── DemoApp.exe         # 示例受保护程序
 ```
+
+> **三个 exe 不放在仓库里**，走 **[Releases](https://github.com/w1465127126/cardkey-gate/releases)** 下载
+> （仓库只留源码，克隆快、diff 干净）。想自己编译看第六节。
 
 ---
 
@@ -243,7 +246,7 @@ build.bat
 .venv\Scripts\python.exe tests\test_e2e_http.py    :: 11 项：真实 HTTP 拉库 -> 校验 -> 落盘授权
 ```
 
-当前状态：**48 项全绿**。
+当前状态：**52 项全绿**。
 
 ---
 
@@ -275,9 +278,18 @@ build.bat
 | 客户端读取 | 不需要 token：`https://raw.githubusercontent.com/w1465127126/cardkey-gate/main/keys.json` |
 | 管理端写入 | `%USERPROFILE%\.cardkey-gate\config.json` 里配 `repo` + `token` + `secret` |
 | 签名状态 | **已启用**。篡改 `apps` 或删掉 `sig` 一律 `SIG_INVALID` |
+| exe 分发 | 不在仓库里，走 [Releases](https://github.com/w1465127126/cardkey-gate/releases) |
 
 **secret 不在本仓库内**，只存在于两处本地文件（均已被 `.gitignore` 排除）：
 `%USERPROFILE%\.cardkey-gate\config.json`（管理端/校验器读取）和 exe 同目录的 `keycheck.json`。
 
 这样一来客户端不需要内嵌任何 token，仓库被公开也不会泄露发卡能力——因为
-改库需要 GitHub 写权限，伪造库需要 secret，两者都不在仓库里。
+改库需要 GitHub 写权限、伪造库需要 secret，两者都不在仓库里。
+
+**签名强度实测**（用真实 exe 二进制对比，能复现的就是真的）：
+
+| 场景 | 加固前 exe | 加固后 exe |
+|---|---|---|
+| 签名正确 | 放行 | 放行 |
+| 篡改 `apps` 内容 | 拒绝 | 拒绝 |
+| **直接删掉 `sig` 字段** | **放行（漏洞）** | **拒绝** |

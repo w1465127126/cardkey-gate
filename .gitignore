@@ -24,6 +24,13 @@ keys_*.txt
 license.dat
 *.log
 
+# exe 旧版本备份
+.exe-backup/
+
+# 打包产物：exe 通过 GitHub Releases 分发，不入库
+# https://github.com/w1465127126/cardkey-gate/releases
+*.exe
+
 # 编辑器 / 系统
 .vscode/
 .idea/
