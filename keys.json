@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13T12:00:30Z",
+  "updated": "2026-10-13T12:01:14Z",
   "note": "卡密库 · 放在 GitHub 仓库根目录，客户端通过 raw/API 读取",
   "apps": {
     "ALBION_FISH": {
@@ -35,10 +35,10 @@
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": ""
+          "last_used": "2026-10-13T12:01:14Z"
         }
       }
     }
   },
-  "sig": "01a743ba34ffff48db76db16251bea1bad3e16e50168ae352c9e090ab293e482"
+  "sig": "08767ef2604ca8259a7f26d13d34cff8310780fa37050f3ee42e23b387cadafe"
 }
