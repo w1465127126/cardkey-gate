@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13T11:22:03Z",
+  "updated": "2026-10-13T11:22:24Z",
   "note": "卡密库 · 放在 GitHub 仓库根目录，客户端通过 raw/API 读取",
   "apps": {
     "DEMO_APP": {
@@ -10,19 +10,6 @@
     "ALBION_FISH": {
       "name": "奥尔比恩·钓鱼助手",
       "keys": {
-        "9G3AVGQANY4C7369": {
-          "key": "9G3A-VGQA-NY4C-7369",
-          "note": "首发批次",
-          "created": "2026-10-13T09:41:31Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
-        },
         "Y6N7R9449JNH4E7R": {
           "key": "Y6N7-R944-9JNH-4E7R",
           "note": "",
@@ -160,5 +147,5 @@
       "keys": {}
     }
   },
-  "sig": "a1d703e93b0de9075aa6580d355f011ad6da1af125bc60518639a45aaa3f669c"
+  "sig": "76c5e73ed6c128d2a8b4190f0c1d8bd5875f6bd8c2083cb8d716c72504188587"
 }
