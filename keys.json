@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13T17:39:56Z",
+  "updated": "2026-10-13T17:40:17Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -33,7 +33,25 @@
           "last_used": "2026-10-13T17:39:56Z"
         }
       }
+    },
+    "__VERIFY_CONSUME__": {
+      "name": "自动验收（用完即删）",
+      "keys": {
+        "VERIFYCONSUME9Q4T": {
+          "key": "VERIF-YCON-SUME-9Q4T",
+          "note": "自动验收生成",
+          "created": "2026-10-13T17:40:17Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        }
+      }
     }
   },
-  "sig": "af5c7383a138ed5859a3fdd5774a5b5cde3d1478c85fc6800586d8df241265c6"
+  "sig": "5c737c8dc943616c0a9222b85aad605d730609b897af9d9444f3a3fefaac1daf"
 }
