@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "updated": "2026-10-13T07:40:00Z",
+  "note": "卡密库 · 放在 GitHub 仓库根目录，客户端通过 raw/API 读取",
+  "apps": {
+    "DEMO_APP": {
+      "name": "示例受保护程序",
+      "keys": {
+        "ACDE3467GHJK9MNP": {
+          "key": "ACDE-3467-GHJK-9MNP",
+          "note": "示例卡密（永久，不限次数）",
+          "created": "2026-10-13T07:40:00Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        }
+      }
+    }
+  }
+}

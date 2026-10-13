@@ -1,0 +1,14 @@
+{
+  "_说明": "复制成 app_config.json 放在 exe 同目录，或直接填在管理端界面里（会存到 %USERPROFILE%\\.cardkey-gate\\config.json）",
+  "repo": "YOURNAME/YOUR-KEYS-REPO",
+  "path": "keys.json",
+  "branch": "main",
+  "token": "",
+  "secret": "",
+  "app_id": "MY_APP",
+  "app_name": "我的工具",
+
+  "_受保护程序侧": "APP_ID 必须与管理端一致；raw_url 是客户端读库地址",
+  "raw_url": "https://raw.githubusercontent.com/YOURNAME/YOUR-KEYS-REPO/main/keys.json",
+  "offline_grace_days": 30
+}

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# PyInstaller 构建中间产物
+build/
+*.spec
+
+# 本地私有配置（可能含 token / secret，绝不入库）
+app_config.json
+.cardkey-gate/
+
+# 本地运行产物
+keys_*.txt
+license.dat
+*.log
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
