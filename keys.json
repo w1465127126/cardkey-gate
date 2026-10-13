@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13T11:50:57Z",
+  "updated": "2026-10-13T11:51:04Z",
   "note": "卡密库 · 放在 GitHub 仓库根目录，客户端通过 raw/API 读取",
   "apps": {
     "DEMO_APP": {
@@ -368,12 +368,12 @@
           "uses": 0,
           "bind_machine": "",
           "bind_on_first_use": true,
-          "machine": "C96C-4A41-73A7-F307",
+          "machine": "",
           "revoked": false,
-          "last_used": "2026-10-13T11:50:57Z"
+          "last_used": ""
         }
       }
     }
   },
-  "sig": "50a555794106a8eea698d0f3c6cd8f0d4efc073ef89738f6d10a64ef8bec5862"
+  "sig": "4ad502fd03b8fc63d45d44b0aa2a65abf876033efbf6ffe3be8a319c323e7cda"
 }
