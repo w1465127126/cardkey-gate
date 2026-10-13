@@ -1,7 +1,44 @@
 {
   "version": 1,
-  "updated": "2026-10-13T11:56:07Z",
+  "updated": "2026-10-13T11:58:51Z",
   "note": "卡密库 · 放在 GitHub 仓库根目录，客户端通过 raw/API 读取",
-  "apps": {},
-  "sig": "2c84163e2682916906e8d7b4ed5cd02f28d19eef895c9bee9bdc80316ce116ad"
+  "apps": {
+    "ALBION_FISH": {
+      "name": "阿尔比恩",
+      "keys": {
+        "FHDPVU6RCVV3WUFF": {
+          "key": "FHDP-VU6R-CVV3-WUFF",
+          "note": "",
+          "created": "2026-10-13T11:58:36Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        }
+      }
+    },
+    "LEIDA": {
+      "name": "阿尔比恩",
+      "keys": {
+        "WQKN6DY7YU9MQTGA": {
+          "key": "WQKN-6DY7-YU9M-QTGA",
+          "note": "",
+          "created": "2026-10-13T11:58:42Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        }
+      }
+    }
+  },
+  "sig": "3757031499e6d3b201df5a229b39e3e50ddc6c087691427b39b751ada37bf29c"
 }
