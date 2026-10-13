@@ -1,68 +1,15 @@
 {
   "version": 1,
-  "updated": "2026-10-13T11:06:04Z",
+  "updated": "2026-10-13T11:22:03Z",
   "note": "卡密库 · 放在 GitHub 仓库根目录，客户端通过 raw/API 读取",
   "apps": {
     "DEMO_APP": {
       "name": "示例受保护程序",
-      "keys": {
-        "ACDE3467GHJK9MNP": {
-          "key": "ACDE-3467-GHJK-9MNP",
-          "note": "示例卡密（永久，不限次数）",
-          "created": "2026-10-13T07:40:00Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
-        }
-      }
+      "keys": {}
     },
     "ALBION_FISH": {
       "name": "奥尔比恩·钓鱼助手",
       "keys": {
-        "9G7HXGDAKEVYKGP6": {
-          "key": "9G7H-XGDA-KEVY-KGP6",
-          "note": "首发批次",
-          "created": "2026-10-13T09:41:31Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
-        },
-        "K7UAPJQ7YV4JFQ76": {
-          "key": "K7UA-PJQ7-YV4J-FQ76",
-          "note": "首发批次",
-          "created": "2026-10-13T09:41:31Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
-        },
-        "TNJFVMMRGMY4WRRF": {
-          "key": "TNJF-VMMR-GMY4-WRRF",
-          "note": "首发批次",
-          "created": "2026-10-13T09:41:31Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
-        },
         "9G3AVGQANY4C7369": {
           "key": "9G3A-VGQA-NY4C-7369",
           "note": "首发批次",
@@ -76,52 +23,142 @@
           "revoked": false,
           "last_used": ""
         },
-        "XK4T3CFF7YQ6D4YY": {
-          "key": "XK4T-3CFF-7YQ6-D4YY",
-          "note": "首发批次",
-          "created": "2026-10-13T09:41:31Z",
-          "expire": null,
-          "max_uses": 0,
+        "Y6N7R9449JNH4E7R": {
+          "key": "Y6N7-R944-9JNH-4E7R",
+          "note": "",
+          "created": "2026-10-13T11:21:56Z",
+          "expire": "2026-10-20T11:21:56Z",
+          "max_uses": 1,
           "uses": 0,
           "bind_machine": "",
-          "bind_on_first_use": true,
+          "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
           "last_used": ""
         },
-        "UQY6G9NW6YY34RUJ": {
-          "key": "UQY6-G9NW-6YY3-4RUJ",
+        "9VWXFUQVF33UWMTR": {
+          "key": "9VWX-FUQV-F33U-WMTR",
           "note": "",
-          "created": "2026-10-13T10:48:06Z",
-          "expire": null,
+          "created": "2026-10-13T11:21:56Z",
+          "expire": "2026-10-20T11:21:56Z",
           "max_uses": 1,
-          "uses": 1,
+          "uses": 0,
           "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "C96C-4A41-73A7-F307",
+          "bind_on_first_use": false,
+          "machine": "",
           "revoked": false,
-          "last_used": "2026-10-13T10:57:58Z"
+          "last_used": ""
+        },
+        "PYMYUHPAEQQMJ9G6": {
+          "key": "PYMY-UHPA-EQQM-J9G6",
+          "note": "",
+          "created": "2026-10-13T11:21:56Z",
+          "expire": "2026-10-20T11:21:56Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "NWGHKPMD7YVDUHGQ": {
+          "key": "NWGH-KPMD-7YVD-UHGQ",
+          "note": "",
+          "created": "2026-10-13T11:21:56Z",
+          "expire": "2026-10-20T11:21:56Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "MCG6UAC3JR6RYNVJ": {
+          "key": "MCG6-UAC3-JR6R-YNVJ",
+          "note": "",
+          "created": "2026-10-13T11:21:56Z",
+          "expire": "2026-10-20T11:21:56Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "EKXXEXNTC3KRACAH": {
+          "key": "EKXX-EXNT-C3KR-ACAH",
+          "note": "",
+          "created": "2026-10-13T11:21:56Z",
+          "expire": "2026-10-20T11:21:56Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "GY3HHC96FWV3JAEG": {
+          "key": "GY3H-HC96-FWV3-JAEG",
+          "note": "",
+          "created": "2026-10-13T11:21:56Z",
+          "expire": "2026-10-20T11:21:56Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "GJ3AD7KMXXR6YEQD": {
+          "key": "GJ3A-D7KM-XXR6-YEQD",
+          "note": "",
+          "created": "2026-10-13T11:21:56Z",
+          "expire": "2026-10-20T11:21:56Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "GFEYQKCDQPXNJ43U": {
+          "key": "GFEY-QKCD-QPXN-J43U",
+          "note": "",
+          "created": "2026-10-13T11:21:56Z",
+          "expire": "2026-10-20T11:21:56Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "W9FPYAEU3X64TTFX": {
+          "key": "W9FP-YAEU-3X64-TTFX",
+          "note": "",
+          "created": "2026-10-13T11:21:56Z",
+          "expire": "2026-10-20T11:21:56Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
         }
       }
     },
     "阿尔比恩": {
       "name": "阿尔比恩",
-      "keys": {
-        "VHN6JJCYXP7VE39P": {
-          "key": "VHN6-JJCY-XP7V-E39P",
-          "note": "",
-          "created": "2026-10-13T10:39:47Z",
-          "expire": "2026-10-20T10:39:47Z",
-          "max_uses": 1,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
-        }
-      }
+      "keys": {}
     }
   },
-  "sig": "78200bd66bea26fddc2ebd868da75b722d1797e703e25a65471f3b437eb31f88"
+  "sig": "a1d703e93b0de9075aa6580d355f011ad6da1af125bc60518639a45aaa3f669c"
 }
