@@ -1,30 +1,16 @@
 {
   "version": 1,
-  "updated": "2026-10-13T10:38:06Z",
+  "updated": "2026-10-13T10:39:21Z",
   "note": "卡密库 · 放在 GitHub 仓库根目录，客户端通过 raw/API 读取",
   "apps": {
     "DEMO_APP": {
       "name": "示例受保护程序",
-      "keys": {
-        "ACDE3467GHJK9MNP": {
-          "key": "ACDE-3467-GHJK-9MNP",
-          "note": "示例卡密（永久，不限次数）",
-          "created": "2026-10-13T07:40:00Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
-        }
-      }
+      "keys": {}
     },
     "ALBION_FISH": {
       "name": "奥尔比恩·钓鱼助手",
       "keys": {}
     }
   },
-  "sig": "bbd1b6700214734c9b6791c26e9dbefa8ff5bdcc36f2074f30814954600cc684"
+  "sig": "2fcd493ffad115f3b63c550c7bf6228a7ae9c562b14328229faece207e30dfde"
 }
