@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13T11:28:26Z",
+  "updated": "2026-10-13T11:28:33Z",
   "note": "卡密库 · 放在 GitHub 仓库根目录，客户端通过 raw/API 读取",
   "apps": {
     "DEMO_APP": {
@@ -132,25 +132,7 @@
     "阿尔比恩": {
       "name": "阿尔比恩",
       "keys": {}
-    },
-    "__VERIFY_CONSUME__": {
-      "name": "自动验收（用完即删）",
-      "keys": {
-        "VERIFYCONSUME9Q4T": {
-          "key": "VERIF-YCON-SUME-9Q4T",
-          "note": "自动验收生成",
-          "created": "2026-10-13T11:28:16Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 1,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "C96C-4A41-73A7-F307",
-          "revoked": false,
-          "last_used": "2026-10-13T11:28:26Z"
-        }
-      }
     }
   },
-  "sig": "8050a5efb7b4f9a3f030bca88e19f7b55fc9d19b0a26a7dccff41f561627613a"
+  "sig": "27d1c75283cf21e9f80997625ff99568124ae71cd2c85d03589dc3ecdec2e378"
 }
