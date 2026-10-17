@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-17T12:45:38Z",
+  "updated": "2026-10-17T12:46:11Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -41,8 +41,139 @@
     },
     "LODRADAR": {
       "name": "失序之地雷达",
-      "keys": {}
+      "keys": {
+        "WYWGQ7D4RJDXXUDN": {
+          "key": "WYWG-Q7D4-RJDX-XUDN",
+          "note": "首发批次",
+          "created": "2026-10-17T12:46:11Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "H4TCF3UGRET9G69W": {
+          "key": "H4TC-F3UG-RET9-G69W",
+          "note": "首发批次",
+          "created": "2026-10-17T12:46:11Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "Q9KTNH7DCR7PQHE3": {
+          "key": "Q9KT-NH7D-CR7P-QHE3",
+          "note": "首发批次",
+          "created": "2026-10-17T12:46:11Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "GNJY7FE9K9JQMWGK": {
+          "key": "GNJY-7FE9-K9JQ-MWGK",
+          "note": "首发批次",
+          "created": "2026-10-17T12:46:11Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "FUDANJ6KFWHF3674": {
+          "key": "FUDA-NJ6K-FWHF-3674",
+          "note": "首发批次",
+          "created": "2026-10-17T12:46:11Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "YE7VJPJR4ATQNRR7": {
+          "key": "YE7V-JPJR-4ATQ-NRR7",
+          "note": "首发批次",
+          "created": "2026-10-17T12:46:11Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "VFWHNMRNAGW7KWMN": {
+          "key": "VFWH-NMRN-AGW7-KWMN",
+          "note": "首发批次",
+          "created": "2026-10-17T12:46:11Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "GJUQ9Y69GUDT776T": {
+          "key": "GJUQ-9Y69-GUDT-776T",
+          "note": "首发批次",
+          "created": "2026-10-17T12:46:11Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "AFTFXM7FDKATAHRV": {
+          "key": "AFTF-XM7F-DKAT-AHRV",
+          "note": "首发批次",
+          "created": "2026-10-17T12:46:11Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "WTRJ69CKD9Q9JRAH": {
+          "key": "WTRJ-69CK-D9Q9-JRAH",
+          "note": "首发批次",
+          "created": "2026-10-17T12:46:11Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        }
+      }
     }
   },
-  "sig": "f0254968798ebdb9af41301b4f5edb5b9a4d7d5ddeb6113a99e6834e1c705fb0"
+  "sig": "60b042fcdd05ae8a09b5eb120c703a75d083dc0c121460d7c60a46fa89498e0a"
 }
