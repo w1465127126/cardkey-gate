@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-17T12:15:59Z",
+  "updated": "2026-10-17T12:39:07Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -38,7 +38,25 @@
           "last_used": "2026-10-17T08:23:43Z"
         }
       }
+    },
+    "LODRADAR": {
+      "name": "失序之地雷达",
+      "keys": {
+        "VTCT3YNGAV3JMRQQ": {
+          "key": "VTCT-3YNG-AV3J-MRQQ",
+          "note": "内部测试-可删",
+          "created": "2026-10-17T12:39:07Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        }
+      }
     }
   },
-  "sig": "dff7da8cc6330a107272fd41859a8a8e81981dfd73f4cf33afc8d0ba855d2f93"
+  "sig": "c32041abcbbf1bd1b65146c6d7d4e15c02f226fbe5ceb38a88d2b6a1715d388c"
 }
