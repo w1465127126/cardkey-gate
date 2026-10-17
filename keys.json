@@ -1,11 +1,25 @@
 {
   "version": 1,
-  "updated": "2026-10-17T08:23:43Z",
+  "updated": "2026-10-17T12:15:59Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
       "name": "阿尔比恩",
-      "keys": {}
+      "keys": {
+        "KR7JRU9MGFFJFC6J": {
+          "key": "KR7J-RU9M-GFFJ-FC6J",
+          "note": "",
+          "created": "2026-10-17T12:15:53Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        }
+      }
     },
     "ALBION_FISH": {
       "name": "阿尔比恩",
@@ -26,5 +40,5 @@
       }
     }
   },
-  "sig": "1afe78e69c75e21e96af2205b7931d119c49216a7ce1ab630dbf20e1532839df"
+  "sig": "dff7da8cc6330a107272fd41859a8a8e81981dfd73f4cf33afc8d0ba855d2f93"
 }
