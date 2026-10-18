@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-18T11:41:44Z",
+  "updated": "2026-10-18T12:02:55Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -17,7 +17,7 @@
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": "2026-10-17T12:45:00Z"
+          "last_used": "2026-10-18T12:02:55Z"
         },
         "GXND6XDKFEKA94K7": {
           "key": "GXND-6XDK-FEKA-94K7",
@@ -84,5 +84,5 @@
       }
     }
   },
-  "sig": "c07152572273bc1806ecc124c7a8ed9779b6f41efbe1bc86d03267c21c7dcbf0"
+  "sig": "e4b8672c99f943a5b6b78d461621803c5cb7a41b3be062b7da5acc41cdfb0a93"
 }
