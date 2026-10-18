@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-18T12:02:55Z",
+  "updated": "2026-10-18T14:46:20Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -66,7 +66,7 @@
       }
     },
     "LODRADAR": {
-      "name": "失序之地雷达",
+      "name": "阿尔比恩",
       "keys": {
         "WTRJ69CKD9Q9JRAH": {
           "key": "WTRJ-69CK-D9Q9-JRAH",
@@ -80,9 +80,22 @@
           "machine": "9CD6-C2CA-D63F-8073",
           "revoked": false,
           "last_used": "2026-10-17T12:49:17Z"
+        },
+        "EQRPYMDCAV9JEY3P": {
+          "key": "EQRP-YMDC-AV9J-EY3P",
+          "note": "",
+          "created": "2026-10-18T14:46:16Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
         }
       }
     }
   },
-  "sig": "e4b8672c99f943a5b6b78d461621803c5cb7a41b3be062b7da5acc41cdfb0a93"
+  "sig": "faa10090cdc4c1c08a29656e91dafa790d0f6e43a586d62233b87ef1093b2ffc"
 }
