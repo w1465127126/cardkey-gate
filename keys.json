@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-18T06:59:24Z",
+  "updated": "2026-10-18T10:48:46Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -31,6 +31,19 @@
           "machine": "",
           "revoked": false,
           "last_used": "2026-10-17T12:55:28Z"
+        },
+        "KU6UNPT6RADNNEKR": {
+          "key": "KU6U-NPT6-RADN-NEKR",
+          "note": "",
+          "created": "2026-10-18T10:48:45Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
         }
       }
     },
@@ -84,5 +97,5 @@
       }
     }
   },
-  "sig": "5a2d65c81b2b774133b40a566bdb8ab6c2df45209f9c649e843f93c5469148e4"
+  "sig": "981e2ad4b686802f61c8a6666e2e059f00c623835564da7dda4d2142b49e31e4"
 }
