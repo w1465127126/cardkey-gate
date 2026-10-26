@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-26T13:50:00Z",
+  "updated": "2026-10-26T13:51:59Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -87,7 +87,7 @@
           "bind_on_first_use": true,
           "machine": "C96C-4A41-73A7-F307",
           "revoked": false,
-          "last_used": "2026-10-26T13:50:00Z"
+          "last_used": "2026-10-26T13:51:59Z"
         },
         "MA3FYMYUFVFXWUTR": {
           "key": "MA3F-YMYU-FVFX-WUTR",
@@ -149,5 +149,5 @@
       }
     }
   },
-  "sig": "982b25c081fbd07b4b8b9f64433c5792801c081adcf7855cf1c6c0e46996534a"
+  "sig": "33ef86aeb9ee5fb1f5e4ce2dbcde0cdf0b057b5c97878dbeae05a4dc95a80840"
 }
