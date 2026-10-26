@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-26T14:47:21Z",
+  "updated": "2026-10-26T14:48:54Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -44,19 +44,6 @@
           "machine": "",
           "revoked": false,
           "last_used": "2026-10-18T10:49:22Z"
-        },
-        "DDPMXJ3YJ66NHURK": {
-          "key": "DDPM-XJ3Y-J66N-HURK",
-          "note": "",
-          "created": "2026-10-26T14:19:07Z",
-          "expire": "2026-10-27T14:19:07Z",
-          "max_uses": 1,
-          "uses": 1,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "FC0F-B81C-4463-358E",
-          "revoked": false,
-          "last_used": "2026-10-26T14:33:04Z"
         },
         "WXHYWF6FR96MDN7U": {
           "key": "WXHY-WF6F-R96M-DN7U",
@@ -136,19 +123,6 @@
           "revoked": false,
           "last_used": ""
         },
-        "9T4XXUA4N36FUPH7": {
-          "key": "9T4X-XUA4-N36F-UPH7",
-          "note": "",
-          "created": "2026-10-26T14:19:07Z",
-          "expire": "2026-10-27T14:19:07Z",
-          "max_uses": 1,
-          "uses": 1,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "1FD1-C9A1-0DB2-35B1",
-          "revoked": false,
-          "last_used": "2026-10-26T14:47:21Z"
-        },
         "HG4JPPRUNW7944AJ": {
           "key": "HG4J-PPRU-NW79-44AJ",
           "note": "",
@@ -227,5 +201,5 @@
       }
     }
   },
-  "sig": "74b0c73a14c61e7aece34a49abc22bd99fcc9e862fc3973282449ef40b5e5221"
+  "sig": "ca277c06ea765c20ffb5408f0f5c089481399f0d7aacd0d886f32717946f7523"
 }
