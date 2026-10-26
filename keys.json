@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-26T13:51:59Z",
+  "updated": "2026-10-26T13:53:09Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -76,19 +76,6 @@
     "ALBION_FISH": {
       "name": "阿尔比恩",
       "keys": {
-        "9R6PMDVQ4WP6TK9V": {
-          "key": "9R6P-MDVQ-4WP6-TK9V",
-          "note": "首发批次",
-          "created": "2026-10-26T13:49:31Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 1,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "C96C-4A41-73A7-F307",
-          "revoked": false,
-          "last_used": "2026-10-26T13:51:59Z"
-        },
         "MA3FYMYUFVFXWUTR": {
           "key": "MA3F-YMYU-FVFX-WUTR",
           "note": "",
@@ -149,5 +136,5 @@
       }
     }
   },
-  "sig": "33ef86aeb9ee5fb1f5e4ce2dbcde0cdf0b057b5c97878dbeae05a4dc95a80840"
+  "sig": "a46ad1c11a67619ba8a5734a0e62395921b32d37aeacf25bccde1615e07c130d"
 }
