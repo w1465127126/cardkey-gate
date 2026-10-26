@@ -1,11 +1,37 @@
 {
   "version": 1,
-  "updated": "2026-10-25T11:19:33Z",
+  "updated": "2026-10-26T13:49:33Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
       "name": "阿尔比恩",
       "keys": {
+        "4RKW7EYG7NXRDKDP": {
+          "key": "4RKW-7EYG-7NXR-DKDP",
+          "note": "",
+          "created": "2026-10-13T17:11:00Z",
+          "expire": "2026-10-20T17:11:00Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "2026-10-13T17:11:55Z"
+        },
+        "39FEVWWKNEP6GFFJ": {
+          "key": "39FE-VWWK-NEP6-GFFJ",
+          "note": "",
+          "created": "2026-10-13T17:23:40Z",
+          "expire": "2026-10-20T17:23:40Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
         "KR7JRU9MGFFJFC6J": {
           "key": "KR7J-RU9M-GFFJ-FC6J",
           "note": "",
@@ -50,6 +76,19 @@
     "ALBION_FISH": {
       "name": "阿尔比恩",
       "keys": {
+        "9R6PMDVQ4WP6TK9V": {
+          "key": "9R6P-MDVQ-4WP6-TK9V",
+          "note": "首发批次",
+          "created": "2026-10-26T13:49:31Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
         "MA3FYMYUFVFXWUTR": {
           "key": "MA3F-YMYU-FVFX-WUTR",
           "note": "",
@@ -110,5 +149,5 @@
       }
     }
   },
-  "sig": "3db76171daaac65300621f5aafd50619cb9e4789cbd49bc3df0302c9b14df9f7"
+  "sig": "eaff14420a98006fef779e10421976ab61e94fb0254e444564e97079aa32acf8"
 }
