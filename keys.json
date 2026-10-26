@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-26T14:18:51Z",
+  "updated": "2026-10-26T14:19:08Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -44,6 +44,136 @@
           "machine": "",
           "revoked": false,
           "last_used": "2026-10-18T10:49:22Z"
+        },
+        "DDPMXJ3YJ66NHURK": {
+          "key": "DDPM-XJ3Y-J66N-HURK",
+          "note": "",
+          "created": "2026-10-26T14:19:07Z",
+          "expire": "2026-10-27T14:19:07Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "WXHYWF6FR96MDN7U": {
+          "key": "WXHY-WF6F-R96M-DN7U",
+          "note": "",
+          "created": "2026-10-26T14:19:07Z",
+          "expire": "2026-10-27T14:19:07Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "M3HNWJGAGWP4TRF3": {
+          "key": "M3HN-WJGA-GWP4-TRF3",
+          "note": "",
+          "created": "2026-10-26T14:19:07Z",
+          "expire": "2026-10-27T14:19:07Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "K6WW7YHGRVVMRKHV": {
+          "key": "K6WW-7YHG-RVVM-RKHV",
+          "note": "",
+          "created": "2026-10-26T14:19:07Z",
+          "expire": "2026-10-27T14:19:07Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "QN4VAHCG6NM3QQFE": {
+          "key": "QN4V-AHCG-6NM3-QQFE",
+          "note": "",
+          "created": "2026-10-26T14:19:07Z",
+          "expire": "2026-10-27T14:19:07Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "9APRQHE4RGVTPUKG": {
+          "key": "9APR-QHE4-RGVT-PUKG",
+          "note": "",
+          "created": "2026-10-26T14:19:07Z",
+          "expire": "2026-10-27T14:19:07Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "TJ66XNWXKXCPFNHE": {
+          "key": "TJ66-XNWX-KXCP-FNHE",
+          "note": "",
+          "created": "2026-10-26T14:19:07Z",
+          "expire": "2026-10-27T14:19:07Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "9T4XXUA4N36FUPH7": {
+          "key": "9T4X-XUA4-N36F-UPH7",
+          "note": "",
+          "created": "2026-10-26T14:19:07Z",
+          "expire": "2026-10-27T14:19:07Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "HG4JPPRUNW7944AJ": {
+          "key": "HG4J-PPRU-NW79-44AJ",
+          "note": "",
+          "created": "2026-10-26T14:19:07Z",
+          "expire": "2026-10-27T14:19:07Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "G3P797EEXUCW3V66": {
+          "key": "G3P7-97EE-XUCW-3V66",
+          "note": "",
+          "created": "2026-10-26T14:19:07Z",
+          "expire": "2026-10-27T14:19:07Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
         }
       }
     },
@@ -97,5 +227,5 @@
       }
     }
   },
-  "sig": "7879e8d306ba78860196e00c3b0fc7710e6fc6b591e531060cd8831de07cb3f3"
+  "sig": "1ec2fb348291414e080eed0f58360d63e083be0b75cdcc14b455fb520b0582f9"
 }
