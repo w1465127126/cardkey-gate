@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-26T14:33:04Z",
+  "updated": "2026-10-26T14:47:21Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -142,12 +142,12 @@
           "created": "2026-10-26T14:19:07Z",
           "expire": "2026-10-27T14:19:07Z",
           "max_uses": 1,
-          "uses": 0,
+          "uses": 1,
           "bind_machine": "",
           "bind_on_first_use": true,
-          "machine": "",
+          "machine": "1FD1-C9A1-0DB2-35B1",
           "revoked": false,
-          "last_used": ""
+          "last_used": "2026-10-26T14:47:21Z"
         },
         "HG4JPPRUNW7944AJ": {
           "key": "HG4J-PPRU-NW79-44AJ",
@@ -227,5 +227,5 @@
       }
     }
   },
-  "sig": "eb36469d24bd4eeecb6ac5f50ed62e8d2b7d81e0d3f393db4549cb3571084e72"
+  "sig": "74b0c73a14c61e7aece34a49abc22bd99fcc9e862fc3973282449ef40b5e5221"
 }
