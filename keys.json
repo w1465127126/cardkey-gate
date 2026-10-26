@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-26T15:35:20Z",
+  "updated": "2026-10-26T15:48:31Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -203,12 +203,12 @@
     "ALBION_FLSH": {
       "name": "阿尔比恩",
       "keys": {
-        "7H9XRTKH4H6X6CR6": {
-          "key": "7H9X-RTKH-4H6X-6CR6",
+        "Q9MEPU4XE4WGJJYP": {
+          "key": "Q9ME-PU4X-E4WG-JJYP",
           "note": "",
-          "created": "2026-10-26T15:35:16Z",
-          "expire": "2026-10-27T15:35:16Z",
-          "max_uses": 5,
+          "created": "2026-10-26T15:48:28Z",
+          "expire": "2026-10-27T15:48:28Z",
+          "max_uses": 1,
           "uses": 0,
           "bind_machine": "",
           "bind_on_first_use": false,
@@ -219,5 +219,5 @@
       }
     }
   },
-  "sig": "5f17c411a6f8e6e7e69a29fb9ee2b8a3d23a3d9feadc795d0bf6edc4f2de0788"
+  "sig": "26bfe95b682b4a3970397dc42802c6ebd9cbeeccdf30d361aa8de8e66cbbf196"
 }
