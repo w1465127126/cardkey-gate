@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-26T14:19:08Z",
+  "updated": "2026-10-26T14:33:04Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -51,12 +51,12 @@
           "created": "2026-10-26T14:19:07Z",
           "expire": "2026-10-27T14:19:07Z",
           "max_uses": 1,
-          "uses": 0,
+          "uses": 1,
           "bind_machine": "",
           "bind_on_first_use": true,
-          "machine": "",
+          "machine": "FC0F-B81C-4463-358E",
           "revoked": false,
-          "last_used": ""
+          "last_used": "2026-10-26T14:33:04Z"
         },
         "WXHYWF6FR96MDN7U": {
           "key": "WXHY-WF6F-R96M-DN7U",
@@ -227,5 +227,5 @@
       }
     }
   },
-  "sig": "1ec2fb348291414e080eed0f58360d63e083be0b75cdcc14b455fb520b0582f9"
+  "sig": "eb36469d24bd4eeecb6ac5f50ed62e8d2b7d81e0d3f393db4549cb3571084e72"
 }
