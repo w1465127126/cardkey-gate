@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-27T07:14:09Z",
+  "updated": "2026-10-27T08:04:19Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -148,6 +148,19 @@
           "machine": "",
           "revoked": false,
           "last_used": ""
+        },
+        "TFCHXH3G343HFNDJ": {
+          "key": "TFCH-XH3G-343H-FNDJ",
+          "note": "",
+          "created": "2026-10-27T08:04:17Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
         }
       }
     },
@@ -218,5 +231,5 @@
       "keys": {}
     }
   },
-  "sig": "ac635267e6ef9a158c29e27c35fd266b7a09e410395a03def81272aff82034fa"
+  "sig": "a2aa9d43833ac31a6155d36f3da3806b1926ad141a0740bbf056e1a42e4dcd4a"
 }
