@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-28T15:32:17Z",
+  "updated": "2026-10-28T15:32:25Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -44,32 +44,6 @@
           "machine": "",
           "revoked": false,
           "last_used": "2026-10-18T10:49:22Z"
-        },
-        "TFCHXH3G343HFNDJ": {
-          "key": "TFCH-XH3G-343H-FNDJ",
-          "note": "",
-          "created": "2026-10-27T08:04:17Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 1,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": "2026-10-27T08:44:08Z"
-        },
-        "9EFYM3FHYM3YHJN3": {
-          "key": "9EFY-M3FH-YM3Y-HJN3",
-          "note": "",
-          "created": "2026-10-27T09:05:49Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 1,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": "2026-10-27T11:06:23Z"
         }
       }
     },
@@ -119,5 +93,5 @@
       }
     }
   },
-  "sig": "a40de471c65d75bb7355463b5641b5f040b410ff2b7b142a22d0fdc0689c8739"
+  "sig": "5edb0a077b3fac2792b60d6906df1fcd23edbeb4abda9da41c8afcd264997198"
 }
