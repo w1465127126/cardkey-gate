@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-28T12:21:56Z",
+  "updated": "2026-10-28T15:23:50Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -125,7 +125,51 @@
     "ALBION_FLSH": {
       "name": "阿尔比恩",
       "keys": {}
+    },
+    "SXZDLEIDA": {
+      "name": "失序之地雷达",
+      "keys": {
+        "YERXCYKDFRG4PGUY": {
+          "key": "YERX-CYKD-FRG4-PGUY",
+          "note": "失序之地雷达",
+          "created": "2026-10-28T15:23:50Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "T3AXNWVJ9EVXCPTP": {
+          "key": "T3AX-NWVJ-9EVX-CPTP",
+          "note": "失序之地雷达",
+          "created": "2026-10-28T15:23:50Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "7CX9VXPUPUWFA3X6": {
+          "key": "7CX9-VXPU-PUWF-A3X6",
+          "note": "失序之地雷达",
+          "created": "2026-10-28T15:23:50Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        }
+      }
     }
   },
-  "sig": "77592b455a93422c87de78b8ffa3b33e39f68811dd7b14f813470f042d6eec72"
+  "sig": "eaf6e3bd0499c8c2a8da04357de8d3ff53aca269b4ecf6d3fae18636f8a70e1b"
 }
