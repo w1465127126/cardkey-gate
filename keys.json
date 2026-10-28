@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-28T15:28:09Z",
+  "updated": "2026-10-28T15:32:17Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -115,35 +115,9 @@
           "revoked": false,
           "last_used": "2026-10-28T15:28:09Z",
           "activated_at": "2026-10-28T15:30:10Z"
-        },
-        "T3AXNWVJ9EVXCPTP": {
-          "key": "T3AX-NWVJ-9EVX-CPTP",
-          "note": "失序之地雷达",
-          "created": "2026-10-28T15:23:50Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
-        },
-        "7CX9VXPUPUWFA3X6": {
-          "key": "7CX9-VXPU-PUWF-A3X6",
-          "note": "失序之地雷达",
-          "created": "2026-10-28T15:23:50Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
         }
       }
     }
   },
-  "sig": "29663572ab5359f3bcae314cfb40f1f776a51b7e409abaff2f98293f6aceb86a"
+  "sig": "a40de471c65d75bb7355463b5641b5f040b410ff2b7b142a22d0fdc0689c8739"
 }
