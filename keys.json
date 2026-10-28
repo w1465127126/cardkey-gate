@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-28T15:32:25Z",
+  "updated": "2026-10-28T15:34:09Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -75,23 +75,8 @@
     },
     "SXZDLEIDA": {
       "name": "失序之地雷达",
-      "keys": {
-        "YERXCYKDFRG4PGUY": {
-          "key": "YERX-CYKD-FRG4-PGUY",
-          "note": "失序之地雷达",
-          "created": "2026-10-28T15:23:50Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 1,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "7BF0-B014-6644-0AB3",
-          "revoked": false,
-          "last_used": "2026-10-28T15:28:09Z",
-          "activated_at": "2026-10-28T15:30:10Z"
-        }
-      }
+      "keys": {}
     }
   },
-  "sig": "5edb0a077b3fac2792b60d6906df1fcd23edbeb4abda9da41c8afcd264997198"
+  "sig": "48aee256fb5bbb47c5e81ab2bdac9c8ebe4510aa7964ad4953214d5faf366731"
 }
