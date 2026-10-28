@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-28T15:23:50Z",
+  "updated": "2026-10-28T15:27:58Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -93,34 +93,7 @@
     },
     "LODRADAR": {
       "name": "阿尔比恩",
-      "keys": {
-        "WTRJ69CKD9Q9JRAH": {
-          "key": "WTRJ-69CK-D9Q9-JRAH",
-          "note": "首发批次",
-          "created": "2026-10-17T12:46:11Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "9CD6-C2CA-D63F-8073",
-          "revoked": false,
-          "last_used": "2026-10-17T12:49:17Z"
-        },
-        "EQRPYMDCAV9JEY3P": {
-          "key": "EQRP-YMDC-AV9J-EY3P",
-          "note": "",
-          "created": "2026-10-18T14:46:16Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": "2026-10-18T14:46:32Z"
-        }
-      }
+      "keys": {}
     },
     "ALBION_FLSH": {
       "name": "阿尔比恩",
@@ -171,5 +144,5 @@
       }
     }
   },
-  "sig": "eaf6e3bd0499c8c2a8da04357de8d3ff53aca269b4ecf6d3fae18636f8a70e1b"
+  "sig": "22ae1514cfa453b5c6aed04ba66ae5f51cfbe73d4bfb8e0a5a7f13a51f5177e6"
 }
