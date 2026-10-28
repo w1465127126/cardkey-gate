@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-28T15:27:58Z",
+  "updated": "2026-10-28T15:28:09Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -113,7 +113,7 @@
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": ""
+          "last_used": "2026-10-28T15:28:09Z"
         },
         "T3AXNWVJ9EVXCPTP": {
           "key": "T3AX-NWVJ-9EVX-CPTP",
@@ -144,5 +144,5 @@
       }
     }
   },
-  "sig": "22ae1514cfa453b5c6aed04ba66ae5f51cfbe73d4bfb8e0a5a7f13a51f5177e6"
+  "sig": "ddea0381ec261f359970496b99b89525ea8965d730e7ffd07a1f04e69736ec54"
 }
