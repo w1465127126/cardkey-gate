@@ -108,12 +108,13 @@
           "created": "2026-10-28T15:23:50Z",
           "expire": null,
           "max_uses": 0,
-          "uses": 0,
+          "uses": 1,
           "bind_machine": "",
           "bind_on_first_use": false,
-          "machine": "",
+          "machine": "7BF0-B014-6644-0AB3",
           "revoked": false,
-          "last_used": "2026-10-28T15:28:09Z"
+          "last_used": "2026-10-28T15:28:09Z",
+          "activated_at": "2026-10-28T15:30:10Z"
         },
         "T3AXNWVJ9EVXCPTP": {
           "key": "T3AX-NWVJ-9EVX-CPTP",
@@ -144,5 +145,5 @@
       }
     }
   },
-  "sig": "ddea0381ec261f359970496b99b89525ea8965d730e7ffd07a1f04e69736ec54"
+  "sig": "29663572ab5359f3bcae314cfb40f1f776a51b7e409abaff2f98293f6aceb86a"
 }
