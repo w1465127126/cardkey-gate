@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-28T15:34:09Z",
+  "updated": "2026-10-28T15:34:48Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -75,8 +75,22 @@
     },
     "SXZDLEIDA": {
       "name": "失序之地雷达",
-      "keys": {}
+      "keys": {
+        "GVQMEG4TRD34NUA7": {
+          "key": "GVQM-EG4T-RD34-NUA7",
+          "note": "",
+          "created": "2026-10-28T15:34:44Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        }
+      }
     }
   },
-  "sig": "48aee256fb5bbb47c5e81ab2bdac9c8ebe4510aa7964ad4953214d5faf366731"
+  "sig": "fa3f8111faae920af30a04405576847c4a7c4fbc2f258b9e81c44dc44d95b6f3"
 }
