@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T16:12:52Z",
+  "updated": "2026-10-29T16:15:24Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -248,9 +248,23 @@
           "revoked": false,
           "last_used": "",
           "sig_v2": "d7c28f2567fc810615e53db711071514c91b7a5e7d1312d53ded7fb3b1477489"
+        },
+        "GGX473KVEK66FVP4": {
+          "key": "GGX4-73KV-EK66-FVP4",
+          "note": "测试：绑别的机器",
+          "created": "2026-10-29T16:15:24Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "AAAABBBBCCCCDDDD",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "264c1866ce666f124448867e70714d97d515cc254c05b7aedd3e0d6304317014"
         }
       }
     }
   },
-  "sig": "40534a908b263ba3a3cb8e091499a87fac7b0c412a0595034493cb04bf7d9e88"
+  "sig": "3705cbf2695b700e86fc7bd7f6dd2fdeaec288ba239e446803fd8273d1e1355e"
 }
