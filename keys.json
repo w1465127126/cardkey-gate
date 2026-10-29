@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T16:24:41Z",
+  "updated": "2026-10-29T16:26:25Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -206,23 +206,8 @@
     },
     "CJCRACK": {
       "name": "采集钓鱼一键破解",
-      "keys": {
-        "GGX473KVEK66FVP4": {
-          "key": "GGX4-73KV-EK66-FVP4",
-          "note": "测试：绑别的机器",
-          "created": "2026-10-29T16:15:24Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 0,
-          "bind_machine": "AAAABBBBCCCCDDDD",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": "",
-          "sig_v2": "264c1866ce666f124448867e70714d97d515cc254c05b7aedd3e0d6304317014"
-        }
-      }
+      "keys": {}
     }
   },
-  "sig": "4b32f9a8c54bc3178a4da81f473ab684bce52715cf9ebc5a693d0cc50309f394"
+  "sig": "37f76ec3ee321223eccf7f190fc42ebc87b5f9f5396cb4b5de2776e5fcd25f94"
 }
