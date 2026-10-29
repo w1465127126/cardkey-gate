@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T16:15:24Z",
+  "updated": "2026-10-29T16:24:41Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -207,48 +207,6 @@
     "CJCRACK": {
       "name": "采集钓鱼一键破解",
       "keys": {
-        "DK9PQ7VVERFPWDX4": {
-          "key": "DK9P-Q7VV-ERFP-WDX4",
-          "note": "一键破解-本机测试",
-          "created": "2026-10-29T16:12:42Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 0,
-          "bind_machine": "1897B532608A91BB",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": "",
-          "sig_v2": "9fea54a8845adb640d2cc7df98118d6ccf0a59e68f2c4cc04106522085401ee5"
-        },
-        "WTHME6QPGNJ4RRUM": {
-          "key": "WTHM-E6QP-GNJ4-RRUM",
-          "note": "一键破解-待售",
-          "created": "2026-10-29T16:12:52Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": "",
-          "sig_v2": "20b0bd0f88c25f2acdb05afdb0b83042c72d45c3607d002c9feadacb2d327548"
-        },
-        "CJQCQUQU7HDWG9JD": {
-          "key": "CJQC-QUQU-7HDW-G9JD",
-          "note": "一键破解-待售",
-          "created": "2026-10-29T16:12:52Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": "",
-          "sig_v2": "d7c28f2567fc810615e53db711071514c91b7a5e7d1312d53ded7fb3b1477489"
-        },
         "GGX473KVEK66FVP4": {
           "key": "GGX4-73KV-EK66-FVP4",
           "note": "测试：绑别的机器",
@@ -266,5 +224,5 @@
       }
     }
   },
-  "sig": "3705cbf2695b700e86fc7bd7f6dd2fdeaec288ba239e446803fd8273d1e1355e"
+  "sig": "4b32f9a8c54bc3178a4da81f473ab684bce52715cf9ebc5a693d0cc50309f394"
 }
