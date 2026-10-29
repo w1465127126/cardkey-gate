@@ -98,7 +98,7 @@
           "uses": 0,
           "bind_machine": "",
           "bind_on_first_use": true,
-          "machine": "7BF0-B014-6644-0AB3",
+          "machine": "31E4-154C-BF02-C1C9",
           "revoked": false,
           "last_used": "2026-10-28T15:34:57Z"
         },
@@ -111,12 +111,12 @@
           "uses": 0,
           "bind_machine": "",
           "bind_on_first_use": true,
-          "machine": "79D6-F3B4-3FFF-D661",
+          "machine": "31E4-154C-BF02-C1C9",
           "revoked": false,
           "last_used": "2026-10-29T11:20:53Z"
         }
       }
     }
   },
-  "sig": "5aed57a5ce1098c94c6c17f7202ddf8e7e1b5733c572d7d6dd1c9010c97294ef"
+  "sig": "6e2a0768d636a951b11877bec626a21aaf74cb5dc194ed4c0df9bb7dc341210b"
 }
