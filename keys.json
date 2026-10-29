@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T15:00:28Z",
+  "updated": "2026-10-29T15:04:58Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -123,35 +123,8 @@
     },
     "SXZDCJ": {
       "name": "采集钓鱼",
-      "keys": {
-        "PV9XRVE74J6MCJPP": {
-          "key": "PV9X-RVE7-4J6M-CJPP",
-          "note": "首发验证卡",
-          "created": "2026-10-29T14:53:44Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 1,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "B6A0-722D-CDB6-5BCE",
-          "revoked": false,
-          "last_used": "2026-10-29T15:00:28Z"
-        },
-        "Q96WH7Q9MFCXK4KN": {
-          "key": "Q96W-H7Q9-MFCX-K4KN",
-          "note": "首发验证卡",
-          "created": "2026-10-29T14:53:44Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
-        }
-      }
+      "keys": {}
     }
   },
-  "sig": "1a1232a958526471d5673dd8c573ca01f1f177733189ee95643be5d899cc6c69"
+  "sig": "431935b8c07b36d30eba08e0fb20291082c7887b35cd587ba3a744fe1e5aa9c6"
 }
