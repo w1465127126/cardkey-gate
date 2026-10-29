@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T16:03:16Z",
+  "updated": "2026-10-29T16:07:46Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -57,6 +57,32 @@
           "machine": "",
           "revoked": false,
           "last_used": "2026-10-29T10:15:38Z"
+        },
+        "4RKW7EYG7NXRDKDP": {
+          "key": "4RKW-7EYG-7NXR-DKDP",
+          "note": "",
+          "created": "2026-10-13T17:11:00Z",
+          "expire": "2026-10-20T17:11:00Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "2026-10-13T17:11:55Z"
+        },
+        "39FEVWWKNEP6GFFJ": {
+          "key": "39FE-VWWK-NEP6-GFFJ",
+          "note": "",
+          "created": "2026-10-13T17:23:40Z",
+          "expire": "2026-10-20T17:23:40Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
         }
       }
     },
@@ -75,12 +101,65 @@
           "machine": "",
           "revoked": false,
           "last_used": "2026-10-28T12:21:56Z"
+        },
+        "9R6PMDVQ4WP6TK9V": {
+          "key": "9R6P-MDVQ-4WP6-TK9V",
+          "note": "首发批次",
+          "created": "2026-10-26T13:49:31Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
         }
       }
     },
     "LODRADAR": {
       "name": "阿尔比恩",
-      "keys": {}
+      "keys": {
+        "WTRJ69CKD9Q9JRAH": {
+          "key": "WTRJ-69CK-D9Q9-JRAH",
+          "note": "首发批次",
+          "created": "2026-10-17T12:46:11Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "9CD6-C2CA-D63F-8073",
+          "revoked": false,
+          "last_used": "2026-10-17T12:49:17Z"
+        },
+        "EQRPYMDCAV9JEY3P": {
+          "key": "EQRP-YMDC-AV9J-EY3P",
+          "note": "",
+          "created": "2026-10-18T14:46:16Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "2026-10-18T14:46:32Z"
+        },
+        "3DAH9JK4CPHX34DH": {
+          "key": "3DAH-9JK4-CPHX-34DH",
+          "note": "",
+          "created": "2026-10-18T15:29:44Z",
+          "expire": "2026-10-21T15:29:44Z",
+          "max_uses": 10,
+          "uses": 1,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "2026-10-19T10:32:24Z"
+        }
+      }
     },
     "ALBION_FLSH": {
       "name": "阿尔比恩",
@@ -126,5 +205,5 @@
       "keys": {}
     }
   },
-  "sig": "431935b8c07b36d30eba08e0fb20291082c7887b35cd587ba3a744fe1e5aa9c6"
+  "sig": "003cdd947a39c8176b5cdc4cdba4dc410ec66af2f59d1b1eebcc9bef87439293"
 }
