@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T11:17:03Z",
+  "updated": "2026-10-29T11:20:48Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -102,21 +102,21 @@
           "revoked": false,
           "last_used": "2026-10-28T15:34:57Z"
         },
-        "JUFATJTCRDX9V3XT": {
-          "key": "JUFA-TJTC-RDX9-V3XT",
+        "H4KWHRQY3YTVGTUU": {
+          "key": "H4KW-HRQY-3YTV-GTUU",
           "note": "",
-          "created": "2026-10-29T11:05:57Z",
+          "created": "2026-10-29T11:20:44Z",
           "expire": null,
-          "max_uses": 1,
-          "uses": 1,
+          "max_uses": 0,
+          "uses": 0,
           "bind_machine": "",
-          "bind_on_first_use": false,
+          "bind_on_first_use": true,
           "machine": "",
           "revoked": false,
-          "last_used": "2026-10-29T11:17:03Z"
+          "last_used": ""
         }
       }
     }
   },
-  "sig": "ab14a4df14b38a3c7c1f660b6c6e26c69305ad101e8073248386b0df8b238c23"
+  "sig": "24b73d878335dc2600890807b54ba62e474b27b260ca9f2034c32e12baf0f53a"
 }
