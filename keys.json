@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T11:42:56Z",
+  "updated": "2026-10-29T11:44:51Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -89,47 +89,21 @@
     "SXZDLEIDA": {
       "name": "阿尔比恩",
       "keys": {
-        "GVQMEG4TRD34NUA7": {
-          "key": "GVQM-EG4T-RD34-NUA7",
+        "VQ4DRHRD4VU9TPMF": {
+          "key": "VQ4D-RHRD-4VU9-TPMF",
           "note": "",
-          "created": "2026-10-28T15:34:44Z",
+          "created": "2026-10-29T11:44:49Z",
           "expire": null,
-          "max_uses": 0,
+          "max_uses": 1,
           "uses": 0,
           "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "31E4-154C-BF02-C1C9",
+          "bind_on_first_use": false,
+          "machine": "",
           "revoked": false,
-          "last_used": "2026-10-28T15:34:57Z"
-        },
-        "H4KWHRQY3YTVGTUU": {
-          "key": "H4KW-HRQY-3YTV-GTUU",
-          "note": "",
-          "created": "2026-10-29T11:20:44Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "31E4-154C-BF02-C1C9",
-          "revoked": false,
-          "last_used": "2026-10-29T11:20:53Z"
-        },
-        "F9MU9V7DCHEMAGDQ": {
-          "key": "F9MU-9V7D-CHEM-AGDQ",
-          "note": "",
-          "created": "2026-10-29T11:42:31Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "31E4-154C-BF02-C1C9",
-          "revoked": false,
-          "last_used": "2026-10-29T11:42:56Z"
+          "last_used": ""
         }
       }
     }
   },
-  "sig": "d89fc33d95fcca0df8d6200bd016af95536324c771847ecf786e2465f94e9ab4"
+  "sig": "740386a02e7347f0b6614fb986017ba6378fcb1a83c6f888ebf8954f2d962b35"
 }
