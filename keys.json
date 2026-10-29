@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T15:10:26Z",
+  "updated": "2026-10-29T16:03:16Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -123,35 +123,8 @@
     },
     "SXZDCJ": {
       "name": "采集钓鱼",
-      "keys": {
-        "A4N3AJKM6JDHMKTJ": {
-          "key": "A4N3-AJKM-6JDH-MKTJ",
-          "note": "补发（原卡被管理端覆盖）",
-          "created": "2026-10-29T15:08:29Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 1,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "B6A0-722D-CDB6-5BCE",
-          "revoked": false,
-          "last_used": "2026-10-29T15:10:26Z"
-        },
-        "GYPETUYK4RKA9XVR": {
-          "key": "GYPE-TUYK-4RKA-9XVR",
-          "note": "补发（原卡被管理端覆盖）",
-          "created": "2026-10-29T15:08:29Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
-        }
-      }
+      "keys": {}
     }
   },
-  "sig": "ad33b460a72dc0bbffd5cd1d9bd09e888e53da5ea33e4c8de5e97ad3b88d625f"
+  "sig": "431935b8c07b36d30eba08e0fb20291082c7887b35cd587ba3a744fe1e5aa9c6"
 }
