@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T16:59:24Z",
+  "updated": "2026-10-29T17:00:14Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -218,7 +218,7 @@
       "keys": {}
     },
     "CJCRACK": {
-      "name": "采集钓鱼一键破解",
+      "name": "阿尔比恩",
       "keys": {
         "CVDHPPJ9YN3XXPCM": {
           "key": "CVDH-PPJ9-YN3X-XPCM",
@@ -247,9 +247,23 @@
           "revoked": true,
           "last_used": "",
           "sig_v2": "74b7781dcf3ce98a00fa62b02da52621d68d3e74a95c5e766df24e46dfe6d75e"
+        },
+        "6UHXT4UWTAEWKUMG": {
+          "key": "6UHX-T4UW-TAEW-KUMG",
+          "note": "",
+          "created": "2026-10-29T17:00:10Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "02a9e3ccbd82b0259e0a12fd6ca413b7d2a48ad1de49e11d9b1afcfdd8bd5ef4"
         }
       }
     }
   },
-  "sig": "5a16c0ef72df22ed182f8aeddef492d34a2579d53288644ff3c87e85f911be5b"
+  "sig": "070a05ee7ef136af0f44d35d47eb84ddd4cea58ad312fdc5879bd0049c54a78d"
 }
