@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T16:08:04Z",
+  "updated": "2026-10-29T16:11:29Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -202,48 +202,8 @@
     },
     "SXZDCJ": {
       "name": "采集钓鱼",
-      "keys": {
-        "3TYYH7V4RNR4GCPK": {
-          "key": "3TYY-H7V4-RNR4-GCPK",
-          "note": "卡密版 采集钓鱼",
-          "created": "2026-10-29T16:07:48Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 1,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "B6A0-722D-CDB6-5BCE",
-          "revoked": false,
-          "last_used": "2026-10-29T16:08:04Z"
-        },
-        "4NPTURWGTN36VHAW": {
-          "key": "4NPT-URWG-TN36-VHAW",
-          "note": "卡密版 采集钓鱼",
-          "created": "2026-10-29T16:07:48Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
-        },
-        "4E9XAUWPXQNVJNJN": {
-          "key": "4E9X-AUWP-XQNV-JNJN",
-          "note": "卡密版 采集钓鱼",
-          "created": "2026-10-29T16:07:48Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": ""
-        }
-      }
+      "keys": {}
     }
   },
-  "sig": "7bba62989f79c9ca363e7387ebb1b4ad3f89d173c7fcebbe542fb7ace60b77b2"
+  "sig": "003cdd947a39c8176b5cdc4cdba4dc410ec66af2f59d1b1eebcc9bef87439293"
 }
