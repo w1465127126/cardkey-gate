@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T16:42:53Z",
+  "updated": "2026-10-29T16:55:11Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -17,7 +17,8 @@
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": "2026-10-27T11:16:45Z"
+          "last_used": "2026-10-27T11:16:45Z",
+          "sig_v2": "3e2325591be5a0b6a035815138fd7cb1d963422d05293177bfd3571b738b5027"
         },
         "GXND6XDKFEKA94K7": {
           "key": "GXND-6XDK-FEKA-94K7",
@@ -30,7 +31,8 @@
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": "2026-10-17T12:55:28Z"
+          "last_used": "2026-10-17T12:55:28Z",
+          "sig_v2": "925b642462acf129afd01c7b6eaa1b052a0928e7470651617a2b41218778f33d"
         },
         "KU6UNPT6RADNNEKR": {
           "key": "KU6U-NPT6-RADN-NEKR",
@@ -43,7 +45,8 @@
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": "2026-10-18T10:49:22Z"
+          "last_used": "2026-10-18T10:49:22Z",
+          "sig_v2": "bcebab0a904f7fd0aaf7de4c6687fe4664e963cd5cdc28e1cc0edeb10bfd81f8"
         },
         "AQQKUF9PRDA4VFQ7": {
           "key": "AQQK-UF9P-RDA4-VFQ7",
@@ -56,7 +59,8 @@
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": "2026-10-29T10:15:38Z"
+          "last_used": "2026-10-29T10:15:38Z",
+          "sig_v2": "ad7ba8dcdf77859168dcacb1fe2d7662c98760ac3049e0d3ebd680a138198c7c"
         },
         "4RKW7EYG7NXRDKDP": {
           "key": "4RKW-7EYG-7NXR-DKDP",
@@ -69,7 +73,8 @@
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": "2026-10-13T17:11:55Z"
+          "last_used": "2026-10-13T17:11:55Z",
+          "sig_v2": "beeed906b79ec0e51298bcc9768a8f485adaa595a973686662395ca70dc996b1"
         },
         "39FEVWWKNEP6GFFJ": {
           "key": "39FE-VWWK-NEP6-GFFJ",
@@ -82,7 +87,8 @@
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": ""
+          "last_used": "",
+          "sig_v2": "95080c9f51c87cde86db94807e94c4fecc1dc24b09aa28c8f7be7a9f12d63838"
         }
       }
     },
@@ -100,7 +106,8 @@
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": "2026-10-28T12:21:56Z"
+          "last_used": "2026-10-28T12:21:56Z",
+          "sig_v2": "8d170a1a87b133c376b4762c25e4ff627dc0bcbfad035fcdf577c9be524c2c3e"
         },
         "9R6PMDVQ4WP6TK9V": {
           "key": "9R6P-MDVQ-4WP6-TK9V",
@@ -113,7 +120,8 @@
           "bind_on_first_use": true,
           "machine": "",
           "revoked": false,
-          "last_used": ""
+          "last_used": "",
+          "sig_v2": "ee320794274d2b5f5ed2f900fad45188c114e324b8710475b22f1260d4c37a4c"
         }
       }
     },
@@ -131,7 +139,8 @@
           "bind_on_first_use": true,
           "machine": "9CD6-C2CA-D63F-8073",
           "revoked": false,
-          "last_used": "2026-10-17T12:49:17Z"
+          "last_used": "2026-10-17T12:49:17Z",
+          "sig_v2": "7c329e073167c63b47f944b5fb7937dec594039c09b5ae47c119bab5863861d3"
         },
         "EQRPYMDCAV9JEY3P": {
           "key": "EQRP-YMDC-AV9J-EY3P",
@@ -144,7 +153,8 @@
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": "2026-10-18T14:46:32Z"
+          "last_used": "2026-10-18T14:46:32Z",
+          "sig_v2": "c40bb2f43044ff9e995f639af9095cded7f1ed60a8c6ff8ae422da26efdfd8dd"
         },
         "3DAH9JK4CPHX34DH": {
           "key": "3DAH-9JK4-CPHX-34DH",
@@ -157,7 +167,8 @@
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": "2026-10-19T10:32:24Z"
+          "last_used": "2026-10-19T10:32:24Z",
+          "sig_v2": "3df16e06635d33804b503a06f6797aa0febbd851f3f5e3a3e415f257b3cde214"
         }
       }
     },
@@ -179,7 +190,8 @@
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": "2026-10-29T11:45:39Z"
+          "last_used": "2026-10-29T11:45:39Z",
+          "sig_v2": "abcf4af7daf9cf541062803ab85b7cc4498c4d17311699afdd7ae9cf1bfc4f32"
         },
         "FM6PY4UVQ47NYAUA": {
           "key": "FM6P-Y4UV-Q47N-YAUA",
@@ -192,7 +204,8 @@
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": "2026-10-29T13:54:03Z"
+          "last_used": "2026-10-29T13:54:03Z",
+          "sig_v2": "58af580168984d8e0c885665907122ec6f9aad43f1c22fbe64cfd2456c564223"
         }
       }
     },
@@ -234,9 +247,23 @@
           "revoked": false,
           "last_used": "",
           "sig_v2": "6f5867dc3e850eead31eb7835192a368fcf6236297a059a19aa65c48f292d618"
+        },
+        "NC46U3R7MTMNGK7K": {
+          "key": "NC46-U3R7-MTMN-GK7K",
+          "note": "管理端GUI测试",
+          "created": "2026-10-29T16:55:11Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "fdb03c8184bfdaa6a911b18b9de2161bbab7d20d463fc4469db0f7d53f909455"
         }
       }
     }
   },
-  "sig": "d722604b4bd57f861231f2496943b5953eb698d5797be9a947a339617186a069"
+  "sig": "e66fc345f0ae8bdaed4c8fdabdabe24d3045c5d76ff8eb28d679c626b0f7191d"
 }
