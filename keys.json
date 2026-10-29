@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T16:07:48Z",
+  "updated": "2026-10-29T16:08:04Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -209,12 +209,12 @@
           "created": "2026-10-29T16:07:48Z",
           "expire": null,
           "max_uses": 1,
-          "uses": 0,
+          "uses": 1,
           "bind_machine": "",
           "bind_on_first_use": true,
-          "machine": "",
+          "machine": "B6A0-722D-CDB6-5BCE",
           "revoked": false,
-          "last_used": ""
+          "last_used": "2026-10-29T16:08:04Z"
         },
         "4NPTURWGTN36VHAW": {
           "key": "4NPT-URWG-TN36-VHAW",
@@ -245,5 +245,5 @@
       }
     }
   },
-  "sig": "911a8bbc2b391a7e505a4fa21bf8b8b0c876e6980a72e09ecb1530c95aab5bff"
+  "sig": "7bba62989f79c9ca363e7387ebb1b4ad3f89d173c7fcebbe542fb7ace60b77b2"
 }
