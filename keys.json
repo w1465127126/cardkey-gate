@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T15:08:58Z",
+  "updated": "2026-10-29T15:09:26Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -135,7 +135,7 @@
           "bind_on_first_use": true,
           "machine": "B6A0-722D-CDB6-5BCE",
           "revoked": false,
-          "last_used": "2026-10-29T15:08:58Z"
+          "last_used": "2026-10-29T15:09:26Z"
         },
         "GYPETUYK4RKA9XVR": {
           "key": "GYPE-TUYK-4RKA-9XVR",
@@ -153,5 +153,5 @@
       }
     }
   },
-  "sig": "32b0a5dfc5aa328af64dfaea3cd64c348f97beb227141d1236eee340ed0791da"
+  "sig": "a2c0df10f8c83dd6f908fe2ffc7857ee8ba6986be32177a78c77e3ee0f016fa1"
 }
