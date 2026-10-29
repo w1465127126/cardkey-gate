@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T17:09:20Z",
+  "updated": "2026-10-29T17:10:02Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -219,8 +219,23 @@
     },
     "CJCRACK": {
       "name": "阿尔比恩",
-      "keys": {}
+      "keys": {
+        "3UEMP3XGF7CQM6K7": {
+          "key": "3UEM-P3XG-F7CQ-M6K7",
+          "note": "",
+          "created": "2026-10-29T17:09:57Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "28f585f2616e4505b63ecba65b33e6b0cff01f5e6deb7b788fb97697e692009c"
+        }
+      }
     }
   },
-  "sig": "3376221ba327cf544de43fe2b1903f17c5fc6926e97a0a6662a2ee5291c9fa3b"
+  "sig": "1527c1e68227ddc99ae7e79ad1ee60746c59f3effd565e2adbb09da4a63fed7c"
 }
