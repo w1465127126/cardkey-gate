@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T16:33:45Z",
+  "updated": "2026-10-29T16:35:15Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -217,9 +217,9 @@
           "bind_machine": "1897B532608A91BB",
           "bind_on_first_use": false,
           "machine": "",
-          "revoked": true,
+          "revoked": false,
           "last_used": "",
-          "sig_v2": "c02b5a41dfcf54f7d9dbbba5691926efac000ec4b9a01def036174f17ef8ab09"
+          "sig_v2": "d21d6a642ca66581f3d033f1003b463962180017ac62694797814a4aa08a389c"
         },
         "E4M6XE4F44TV4NTX": {
           "key": "E4M6-XE4F-44TV-4NTX",
@@ -252,5 +252,5 @@
       }
     }
   },
-  "sig": "ea1ca8d9af7ab899f0c085d854663538d32b79fbf498b1b011ad385b44ffe6ed"
+  "sig": "7c9bbce77405009154b9cc5c3173ebcc7450eebacfee8930bdd7c6ddf045111c"
 }
