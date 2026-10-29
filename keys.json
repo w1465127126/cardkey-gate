@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T16:11:29Z",
+  "updated": "2026-10-29T16:12:42Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -203,7 +203,26 @@
     "SXZDCJ": {
       "name": "采集钓鱼",
       "keys": {}
+    },
+    "CJCRACK": {
+      "name": "采集钓鱼一键破解",
+      "keys": {
+        "DK9PQ7VVERFPWDX4": {
+          "key": "DK9P-Q7VV-ERFP-WDX4",
+          "note": "一键破解-本机测试",
+          "created": "2026-10-29T16:12:42Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "1897B532608A91BB",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "9fea54a8845adb640d2cc7df98118d6ccf0a59e68f2c4cc04106522085401ee5"
+        }
+      }
     }
   },
-  "sig": "003cdd947a39c8176b5cdc4cdba4dc410ec66af2f59d1b1eebcc9bef87439293"
+  "sig": "e290a74f720c71a08a63c1daecc0ea91f5d70661c9445fa262a320652f60fcbf"
 }
