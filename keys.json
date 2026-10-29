@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T10:15:38Z",
+  "updated": "2026-10-29T11:05:59Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -87,7 +87,7 @@
       "keys": {}
     },
     "SXZDLEIDA": {
-      "name": "失序之地雷达",
+      "name": "阿尔比恩",
       "keys": {
         "GVQMEG4TRD34NUA7": {
           "key": "GVQM-EG4T-RD34-NUA7",
@@ -101,9 +101,22 @@
           "machine": "7BF0-B014-6644-0AB3",
           "revoked": false,
           "last_used": "2026-10-28T15:34:57Z"
+        },
+        "JUFATJTCRDX9V3XT": {
+          "key": "JUFA-TJTC-RDX9-V3XT",
+          "note": "",
+          "created": "2026-10-29T11:05:57Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
         }
       }
     }
   },
-  "sig": "aeb5b0f7befdf289e16bf17ecc03111b658d00eda62db852b8a844c037c05000"
+  "sig": "c42a3fe88122ad3a96acd7171e7eae0a8bdf8f824f28766b6b3f1f14c9f91dc2"
 }
