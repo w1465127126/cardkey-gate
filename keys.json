@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T16:42:49Z",
+  "updated": "2026-10-29T16:42:53Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -220,9 +220,23 @@
           "revoked": false,
           "last_used": "",
           "sig_v2": "f04f96f7f3811291813fdaf213a6443e013d6b30c071d4a35d4564ba90e236ee"
+        },
+        "AA44JAGU6UJW6PMA": {
+          "key": "AA44-JAGU-6UJW-6PMA",
+          "note": "自用-本机",
+          "created": "2026-10-29T16:42:53Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "1897B532608A91BB",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "6f5867dc3e850eead31eb7835192a368fcf6236297a059a19aa65c48f292d618"
         }
       }
     }
   },
-  "sig": "5e38d34bd6017e8abb1583c7f88d8098263cb61a11bd91203c4e081dba2cc4a0"
+  "sig": "d722604b4bd57f861231f2496943b5953eb698d5797be9a947a339617186a069"
 }
