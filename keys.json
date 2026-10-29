@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T11:45:39Z",
+  "updated": "2026-10-29T11:50:27Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -103,7 +103,25 @@
           "last_used": "2026-10-29T11:45:39Z"
         }
       }
+    },
+    "测试": {
+      "name": "测试",
+      "keys": {
+        "YX3Q4YA4C6494FD7": {
+          "key": "YX3Q-4YA4-C649-4FD7",
+          "note": "测试文件",
+          "created": "2026-10-29T11:50:27Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        }
+      }
     }
   },
-  "sig": "d3e50fcd07db39e359559e0b949e55815e966f6510cc03b0a583884c96645c7a"
+  "sig": "e2525adb29c5b2c44e72fa73c4e3e3923a90bfce76b8966ae3850b4947588ec7"
 }
