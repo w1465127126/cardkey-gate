@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T11:53:23Z",
+  "updated": "2026-10-29T13:23:35Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -101,6 +101,19 @@
           "machine": "",
           "revoked": false,
           "last_used": "2026-10-29T11:45:39Z"
+        },
+        "FM6PY4UVQ47NYAUA": {
+          "key": "FM6P-Y4UV-Q47N-YAUA",
+          "note": "",
+          "created": "2026-10-29T13:23:33Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
         }
       }
     },
@@ -109,5 +122,5 @@
       "keys": {}
     }
   },
-  "sig": "9062336517fd7822ac0edb94bf3b5d5719f3d136ba62dca925e9d1117a2db533"
+  "sig": "59972c71e472454aee1c029f98956bbe8de31d1ec98e8a580cf32f56659742f4"
 }
