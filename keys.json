@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T11:44:58Z",
+  "updated": "2026-10-29T11:45:35Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -89,21 +89,21 @@
     "SXZDLEIDA": {
       "name": "阿尔比恩",
       "keys": {
-        "VQ4DRHRD4VU9TPMF": {
-          "key": "VQ4D-RHRD-4VU9-TPMF",
+        "VYGJPYCCAG7TCRXV": {
+          "key": "VYGJ-PYCC-AG7T-CRXV",
           "note": "",
-          "created": "2026-10-29T11:44:49Z",
+          "created": "2026-10-29T11:45:32Z",
           "expire": null,
-          "max_uses": 1,
-          "uses": 1,
+          "max_uses": 0,
+          "uses": 0,
           "bind_machine": "",
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": "2026-10-29T11:44:58Z"
+          "last_used": ""
         }
       }
     }
   },
-  "sig": "a0baf9fabcd1ca0251f7a3cd93ad2fc0bb481f780d2d01267483fb874cdd9545"
+  "sig": "9e985fb2dda798a389452fc7fac10c921d76b9f3162053966112d718fd870c5f"
 }
