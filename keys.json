@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T16:39:51Z",
+  "updated": "2026-10-29T16:41:08Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -206,8 +206,22 @@
     },
     "CJCRACK": {
       "name": "采集钓鱼一键破解",
-      "keys": {}
+      "keys": {
+        "CVDHPPJ9YN3XXPCM": {
+          "key": "CVDH-PPJ9-YN3X-XPCM",
+          "note": "",
+          "created": "2026-10-29T16:41:06Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        }
+      }
     }
   },
-  "sig": "37f76ec3ee321223eccf7f190fc42ebc87b5f9f5396cb4b5de2776e5fcd25f94"
+  "sig": "c53fb2c122ecc3a5a4bafeceff50d4816805d9eae5959827b48a358f95cd14ea"
 }
