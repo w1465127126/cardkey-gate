@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T13:54:03Z",
+  "updated": "2026-10-29T14:53:55Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -120,7 +120,38 @@
     "测试": {
       "name": "测试",
       "keys": {}
+    },
+    "SXZDCJ": {
+      "name": "采集钓鱼",
+      "keys": {
+        "PV9XRVE74J6MCJPP": {
+          "key": "PV9X-RVE7-4J6M-CJPP",
+          "note": "首发验证卡",
+          "created": "2026-10-29T14:53:44Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        },
+        "Q96WH7Q9MFCXK4KN": {
+          "key": "Q96W-H7Q9-MFCX-K4KN",
+          "note": "首发验证卡",
+          "created": "2026-10-29T14:53:44Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        }
+      }
     }
   },
-  "sig": "373710afd8196ef153b8ad77f49e4dd3ce775a8838167d9a4d2ffcc40ff2bea9"
+  "sig": "49e23728e644e2dfe13cc84a07f2bdb554e35487f8c613a3e15f6db7998ad80f"
 }
