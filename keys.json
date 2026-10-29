@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T16:12:42Z",
+  "updated": "2026-10-29T16:12:52Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -220,9 +220,37 @@
           "revoked": false,
           "last_used": "",
           "sig_v2": "9fea54a8845adb640d2cc7df98118d6ccf0a59e68f2c4cc04106522085401ee5"
+        },
+        "WTHME6QPGNJ4RRUM": {
+          "key": "WTHM-E6QP-GNJ4-RRUM",
+          "note": "一键破解-待售",
+          "created": "2026-10-29T16:12:52Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "20b0bd0f88c25f2acdb05afdb0b83042c72d45c3607d002c9feadacb2d327548"
+        },
+        "CJQCQUQU7HDWG9JD": {
+          "key": "CJQC-QUQU-7HDW-G9JD",
+          "note": "一键破解-待售",
+          "created": "2026-10-29T16:12:52Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "d7c28f2567fc810615e53db711071514c91b7a5e7d1312d53ded7fb3b1477489"
         }
       }
     }
   },
-  "sig": "e290a74f720c71a08a63c1daecc0ea91f5d70661c9445fa262a320652f60fcbf"
+  "sig": "40534a908b263ba3a3cb8e091499a87fac7b0c412a0595034493cb04bf7d9e88"
 }
