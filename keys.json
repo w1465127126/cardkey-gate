@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T17:06:49Z",
+  "updated": "2026-10-29T17:09:20Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -219,51 +219,8 @@
     },
     "CJCRACK": {
       "name": "阿尔比恩",
-      "keys": {
-        "6UHXT4UWTAEWKUMG": {
-          "key": "6UHX-T4UW-TAEW-KUMG",
-          "note": "",
-          "created": "2026-10-29T17:00:10Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": "",
-          "sig_v2": "02a9e3ccbd82b0259e0a12fd6ca413b7d2a48ad1de49e11d9b1afcfdd8bd5ef4"
-        },
-        "CVDHPPJ9YN3XXPCM": {
-          "key": "CVDH-PPJ9-YN3X-XPCM",
-          "note": "",
-          "created": "2026-10-29T16:41:06Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": true,
-          "last_used": "",
-          "sig_v2": "5f4be3c7f888824e4811a21cd2c4424dc8b84a778baac012d34e6e41f0e2f3ec"
-        },
-        "AA44JAGU6UJW6PMA": {
-          "key": "AA44-JAGU-6UJW-6PMA",
-          "note": "自用-本机",
-          "created": "2026-10-29T16:42:53Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 0,
-          "bind_machine": "1897B532608A91BB",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": "",
-          "sig_v2": "6f5867dc3e850eead31eb7835192a368fcf6236297a059a19aa65c48f292d618"
-        }
-      }
+      "keys": {}
     }
   },
-  "sig": "a8c2cbc637c24b0952e70afee40eb4d6378f1c5ca85ed8ee38b9bff18fa98063"
+  "sig": "3376221ba327cf544de43fe2b1903f17c5fc6926e97a0a6662a2ee5291c9fa3b"
 }
