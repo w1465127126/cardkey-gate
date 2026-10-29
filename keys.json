@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T17:13:35Z",
+  "updated": "2026-10-29T17:21:08Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -141,34 +141,6 @@
           "revoked": false,
           "last_used": "2026-10-17T12:49:17Z",
           "sig_v2": "7c329e073167c63b47f944b5fb7937dec594039c09b5ae47c119bab5863861d3"
-        },
-        "EQRPYMDCAV9JEY3P": {
-          "key": "EQRP-YMDC-AV9J-EY3P",
-          "note": "",
-          "created": "2026-10-18T14:46:16Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": "2026-10-18T14:46:32Z",
-          "sig_v2": "c40bb2f43044ff9e995f639af9095cded7f1ed60a8c6ff8ae422da26efdfd8dd"
-        },
-        "3DAH9JK4CPHX34DH": {
-          "key": "3DAH-9JK4-CPHX-34DH",
-          "note": "",
-          "created": "2026-10-18T15:29:44Z",
-          "expire": "2026-10-21T15:29:44Z",
-          "max_uses": 10,
-          "uses": 1,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": "2026-10-19T10:32:24Z",
-          "sig_v2": "3df16e06635d33804b503a06f6797aa0febbd851f3f5e3a3e415f257b3cde214"
         }
       }
     },
@@ -251,5 +223,5 @@
       }
     }
   },
-  "sig": "a7e8d9b18562af686f540b6d961d5e6fa8de1d5d4c54977a067172f118d90125"
+  "sig": "10e44e28683cef69a6082a90fcd2f6b10a28fdb6dd9b96b97c654a38b0867f4e"
 }
