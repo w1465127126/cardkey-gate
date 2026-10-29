@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T16:55:11Z",
+  "updated": "2026-10-29T16:55:36Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -247,23 +247,9 @@
           "revoked": false,
           "last_used": "",
           "sig_v2": "6f5867dc3e850eead31eb7835192a368fcf6236297a059a19aa65c48f292d618"
-        },
-        "NC46U3R7MTMNGK7K": {
-          "key": "NC46-U3R7-MTMN-GK7K",
-          "note": "管理端GUI测试",
-          "created": "2026-10-29T16:55:11Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": "",
-          "sig_v2": "fdb03c8184bfdaa6a911b18b9de2161bbab7d20d463fc4469db0f7d53f909455"
         }
       }
     }
   },
-  "sig": "e66fc345f0ae8bdaed4c8fdabdabe24d3045c5d76ff8eb28d679c626b0f7191d"
+  "sig": "2f9a1a58adc20eaa8ff9876b1c26aa3c5506136a214d3b7d71f7cf8fbc36e42c"
 }
