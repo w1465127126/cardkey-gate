@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T17:00:14Z",
+  "updated": "2026-10-29T17:00:30Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -220,6 +220,20 @@
     "CJCRACK": {
       "name": "阿尔比恩",
       "keys": {
+        "6UHXT4UWTAEWKUMG": {
+          "key": "6UHX-T4UW-TAEW-KUMG",
+          "note": "",
+          "created": "2026-10-29T17:00:10Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "02a9e3ccbd82b0259e0a12fd6ca413b7d2a48ad1de49e11d9b1afcfdd8bd5ef4"
+        },
         "CVDHPPJ9YN3XXPCM": {
           "key": "CVDH-PPJ9-YN3X-XPCM",
           "note": "",
@@ -247,20 +261,6 @@
           "revoked": true,
           "last_used": "",
           "sig_v2": "74b7781dcf3ce98a00fa62b02da52621d68d3e74a95c5e766df24e46dfe6d75e"
-        },
-        "6UHXT4UWTAEWKUMG": {
-          "key": "6UHX-T4UW-TAEW-KUMG",
-          "note": "",
-          "created": "2026-10-29T17:00:10Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": "",
-          "sig_v2": "02a9e3ccbd82b0259e0a12fd6ca413b7d2a48ad1de49e11d9b1afcfdd8bd5ef4"
         }
       }
     }
