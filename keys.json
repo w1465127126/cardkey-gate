@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-29T16:35:15Z",
+  "updated": "2026-10-29T16:39:51Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -206,51 +206,8 @@
     },
     "CJCRACK": {
       "name": "采集钓鱼一键破解",
-      "keys": {
-        "PQRXWYDCE3PE6AVW": {
-          "key": "PQRX-WYDC-E3PE-6AVW",
-          "note": "自用-本机",
-          "created": "2026-10-29T16:31:14Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 0,
-          "bind_machine": "1897B532608A91BB",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": "",
-          "sig_v2": "d21d6a642ca66581f3d033f1003b463962180017ac62694797814a4aa08a389c"
-        },
-        "E4M6XE4F44TV4NTX": {
-          "key": "E4M6-XE4F-44TV-4NTX",
-          "note": "待售",
-          "created": "2026-10-29T16:31:19Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": "",
-          "sig_v2": "ac1046a1081c34d7c6996861c8b152b80c7d14bf59e6fcdabffd14387d48db39"
-        },
-        "9AYN7KK7V7QEHXJY": {
-          "key": "9AYN-7KK7-V7QE-HXJY",
-          "note": "待售",
-          "created": "2026-10-29T16:31:19Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": false,
-          "machine": "",
-          "revoked": false,
-          "last_used": "",
-          "sig_v2": "1e5bb52ce0c75f4c71955aeb3b7d70fb1d9087ff3926edc074738f9155884a38"
-        }
-      }
+      "keys": {}
     }
   },
-  "sig": "7c9bbce77405009154b9cc5c3173ebcc7450eebacfee8930bdd7c6ddf045111c"
+  "sig": "37f76ec3ee321223eccf7f190fc42ebc87b5f9f5396cb4b5de2776e5fcd25f94"
 }
