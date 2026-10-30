@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-30T10:35:58Z",
+  "updated": "2026-10-30T10:36:14Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -206,6 +206,20 @@
           "revoked": false,
           "last_used": "2026-10-30T05:23:00Z",
           "sig_v2": "ebcfba557c8be0d5e1eaf52ea9fb22bde98c7c51b798f480345b9a38ad3586ef"
+        },
+        "DFGT39JRY6G6RUER": {
+          "key": "DFGT-39JR-Y6G6-RUER",
+          "note": "客户30永久无更新",
+          "created": "2026-10-30T10:36:11Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "0f18852bb5df8a440adc4948bccf5eaf34a8e00ddbf58b026a971356a79939ae"
         }
       }
     },
@@ -222,5 +236,5 @@
       "keys": {}
     }
   },
-  "sig": "ada9e427df73c6fdca38a450debc4eb17d4d9b2121c6534c1a7a833b1d234447"
+  "sig": "66ae5f5e0a4160fd02060dc0a6452d3b344fbcdc70948da0fb0ec28a7cf330d1"
 }
