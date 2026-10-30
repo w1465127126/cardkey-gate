@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-30T05:22:39Z",
+  "updated": "2026-10-30T05:22:54Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -192,6 +192,20 @@
           "revoked": false,
           "last_used": "2026-10-30T04:10:29Z",
           "sig_v2": "a5e1af0be844d31b07a548c89dbbc8e34791c271e3cb37bead9f2bed0047b4e6"
+        },
+        "AMGEG3URAPPVRAAN": {
+          "key": "AMGE-G3UR-APPV-RAAN",
+          "note": "",
+          "created": "2026-10-30T05:22:52Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "ebcfba557c8be0d5e1eaf52ea9fb22bde98c7c51b798f480345b9a38ad3586ef"
         }
       }
     },
@@ -208,5 +222,5 @@
       "keys": {}
     }
   },
-  "sig": "2fd252663f02105d7d3f1476b8dd3cc2cb81751ff4c5bf368fbb14c30b0a327b"
+  "sig": "3d4e157d06302ec31e9a967fa5c0a1036021e3cdc45a233b40ad27089f210c19"
 }
