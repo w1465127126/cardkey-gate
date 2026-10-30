@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-30T04:10:29Z",
+  "updated": "2026-10-30T05:22:39Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -205,37 +205,8 @@
     },
     "CJCRACK": {
       "name": "阿尔比恩",
-      "keys": {
-        "3UEMP3XGF7CQM6K7": {
-          "key": "3UEM-P3XG-F7CQ-M6K7",
-          "note": "",
-          "created": "2026-10-29T17:09:57Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": "",
-          "sig_v2": "28f585f2616e4505b63ecba65b33e6b0cff01f5e6deb7b788fb97697e692009c"
-        },
-        "GWVRW7MPRNUNJ6WX": {
-          "key": "GWVR-W7MP-RNUN-J6WX",
-          "note": "",
-          "created": "2026-10-29T17:13:33Z",
-          "expire": null,
-          "max_uses": 0,
-          "uses": 0,
-          "bind_machine": "1D48C0502C06C228",
-          "bind_on_first_use": true,
-          "machine": "",
-          "revoked": false,
-          "last_used": "",
-          "sig_v2": "1427d7b6c8587ba7fb16cea95a21ab1eb4f7d4797d724fab1d9ed3afcb55aca1"
-        }
-      }
+      "keys": {}
     }
   },
-  "sig": "8195fb829921975cee877383f54ec412ec4b83468ca262e381a2e168d5d5c73a"
+  "sig": "2fd252663f02105d7d3f1476b8dd3cc2cb81751ff4c5bf368fbb14c30b0a327b"
 }
