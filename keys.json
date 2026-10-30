@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-30T05:23:00Z",
+  "updated": "2026-10-30T10:35:26Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -206,6 +206,20 @@
           "revoked": false,
           "last_used": "2026-10-30T05:23:00Z",
           "sig_v2": "ebcfba557c8be0d5e1eaf52ea9fb22bde98c7c51b798f480345b9a38ad3586ef"
+        },
+        "EURAX9JKKWWYD3PA": {
+          "key": "EURA-X9JK-KWWY-D3PA",
+          "note": "",
+          "created": "2026-10-30T10:35:21Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "13b1021fb4eda7aad5975801b917ec526037f049d526108d995ad6cc5f214a16"
         }
       }
     },
@@ -222,5 +236,5 @@
       "keys": {}
     }
   },
-  "sig": "ada9e427df73c6fdca38a450debc4eb17d4d9b2121c6534c1a7a833b1d234447"
+  "sig": "bd8097ad1340fcb40101b94215b0831429d9aa405880e241d253d3261d091a46"
 }
