@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-31T12:11:47Z",
+  "updated": "2026-10-31T12:12:07Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -17,7 +17,7 @@
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": "2026-10-31T11:42:01Z",
+          "last_used": "2026-10-27T11:16:45Z",
           "sig_v2": "3e2325591be5a0b6a035815138fd7cb1d963422d05293177bfd3571b738b5027"
         },
         "GXND6XDKFEKA94K7": {
@@ -234,6 +234,20 @@
           "revoked": false,
           "last_used": "2026-10-31T10:50:28Z",
           "sig_v2": "d4a0b304c27a625fa61487358a91503d6ad126969cf02e251d0c9ad3c3be3b93"
+        },
+        "T3FDVTAQNYAQNKPN": {
+          "key": "T3FD-VTAQ-NYAQ-NKPN",
+          "note": "永久无更新",
+          "created": "2026-10-31T12:12:01Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "c7c17513bea51460621fbc5f6880832ab1096cbcc1e33401ef2053fb23d24382"
         }
       }
     },
@@ -250,5 +264,5 @@
       "keys": {}
     }
   },
-  "sig": "96e26037f8748856162ecff8d417ceb2f8ba58713c6262c0d9566e4dfff6cd85"
+  "sig": "e487580222fb4093a64c882f0da5ebe740b5120ac95e6edefc819a63be2a4809"
 }
