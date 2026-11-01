@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-01T08:54:59Z",
+  "updated": "2026-11-01T09:13:13Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -262,6 +262,20 @@
           "revoked": false,
           "last_used": "2026-10-31T16:46:31Z",
           "sig_v2": "03fea810696a3b593821a177a1a3bc586ddf5244110b9efc8547fafe3ae314fe"
+        },
+        "RAN6XF996VN66VYE": {
+          "key": "RAN6-XF99-6VN6-6VYE",
+          "note": "永久无更新",
+          "created": "2026-11-01T09:13:11Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "478ec4b225e0c3f554954aa9a27ed9d555e9f935e5a01a2556ccc8a749a79f91"
         }
       }
     },
@@ -278,5 +292,5 @@
       "keys": {}
     }
   },
-  "sig": "62a23f6c9985e42b56db816232e0c5bbb5f92701209ae326aa887e23199e78af"
+  "sig": "dfdbdf9d0029292f33490a1beab8d84bd821b9d943ecc6bec32067fd66ec9990"
 }
