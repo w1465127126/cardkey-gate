@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-01T09:17:56Z",
+  "updated": "2026-11-01T11:20:36Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -122,6 +122,20 @@
           "revoked": false,
           "last_used": "",
           "sig_v2": "ee320794274d2b5f5ed2f900fad45188c114e324b8710475b22f1260d4c37a4c"
+        },
+        "MQ4DEJAAM9DR7QWG": {
+          "key": "MQ4D-EJAA-M9DR-7QWG",
+          "note": "",
+          "created": "2026-11-01T11:20:31Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "36d84270e474bb0b34ef42cde41d95c41accbe7dc94a09b1603bb0a5e3913402"
         }
       }
     },
@@ -292,5 +306,5 @@
       "keys": {}
     }
   },
-  "sig": "0d3b287cb24c8e11d72643c237ab3183e69e0013854957b78e85624823f56b6f"
+  "sig": "ea4106f407deab1460b2d6b5f23d122aae36b03c7a30be178f7d4605ec4fb321"
 }
