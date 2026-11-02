@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-01T13:25:05Z",
+  "updated": "2026-11-02T03:57:06Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -290,6 +290,20 @@
           "revoked": false,
           "last_used": "2026-11-01T13:25:05Z",
           "sig_v2": "478ec4b225e0c3f554954aa9a27ed9d555e9f935e5a01a2556ccc8a749a79f91"
+        },
+        "XEMECDQTGC7YJTVC": {
+          "key": "XEME-CDQT-GC7Y-JTVC",
+          "note": "",
+          "created": "2026-11-02T03:57:03Z",
+          "expire": "2026-12-02T03:57:03Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "2cdba066ad6673a480a652c5ef6a972644eb757b6c1a12d3915f6550bf4237ec"
         }
       }
     },
@@ -306,5 +320,5 @@
       "keys": {}
     }
   },
-  "sig": "9910cd50c9909500fe34063d0da68db42d0ec1bd4159134370db47b8d01da07f"
+  "sig": "ffe9e06e42a318d7e0f68c40428530b5bb4ff1155563a7ea0d0609e0c992b69d"
 }
