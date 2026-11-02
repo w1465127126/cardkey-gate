@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-02T07:16:27Z",
+  "updated": "2026-11-02T08:35:05Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -318,6 +318,20 @@
           "revoked": false,
           "last_used": "",
           "sig_v2": "2cdba066ad6673a480a652c5ef6a972644eb757b6c1a12d3915f6550bf4237ec"
+        },
+        "WXJW34TM737DVEFQ": {
+          "key": "WXJW-34TM-737D-VEFQ",
+          "note": "",
+          "created": "2026-11-02T08:35:02Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "19c7c141a26513befb40a2596ae5aeb6e5da4773a1bcd9834755e572d31d8b58"
         }
       }
     },
@@ -334,5 +348,5 @@
       "keys": {}
     }
   },
-  "sig": "12e29663d8a589491a1b9b383c52f163b62c10c58045fa700ee13728392caa52"
+  "sig": "d3147563110977d41ba47e06395a572433b18b8c84f6a54c22647bc91092b871"
 }
