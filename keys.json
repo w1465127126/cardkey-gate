@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-04T13:49:24Z",
+  "updated": "2026-11-05T02:09:36Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -89,6 +89,146 @@
           "revoked": false,
           "last_used": "",
           "sig_v2": "95080c9f51c87cde86db94807e94c4fecc1dc24b09aa28c8f7be7a9f12d63838"
+        },
+        "U3J9E4KKX7JHTJ93": {
+          "key": "U3J9-E4KK-X7JH-TJ93",
+          "note": "",
+          "created": "2026-11-05T02:09:35Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "4293d829fc49227b7cec727a4c4ffd54c8833e453590ca31d8b025d04f715807"
+        },
+        "EQE3D3NWFE9UKR3W": {
+          "key": "EQE3-D3NW-FE9U-KR3W",
+          "note": "",
+          "created": "2026-11-05T02:09:35Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "5c1c9e37b95ae73c806d47911304cf48685ccad759a524992dc9f8e499c02705"
+        },
+        "WH4EHK9CVDVFNHKV": {
+          "key": "WH4E-HK9C-VDVF-NHKV",
+          "note": "",
+          "created": "2026-11-05T02:09:35Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "24b68b2e783e58d9db056df6e9e512a2ec511d420ccf93fb6c911a52796e1cc5"
+        },
+        "R3GPVW6GM97NJER4": {
+          "key": "R3GP-VW6G-M97N-JER4",
+          "note": "",
+          "created": "2026-11-05T02:09:35Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "fdf523f03d93dbd52445a58b9eb0e0de15efb8b37dd0808e316ab11f8e7b1aaf"
+        },
+        "UKQFTVRDPTPFVUXP": {
+          "key": "UKQF-TVRD-PTPF-VUXP",
+          "note": "",
+          "created": "2026-11-05T02:09:35Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "6afa47bc05e8ee8a56d4269b74581b137366a8daf16ed89a13cdb5408410150c"
+        },
+        "WHTXNV3THK6PHQJT": {
+          "key": "WHTX-NV3T-HK6P-HQJT",
+          "note": "",
+          "created": "2026-11-05T02:09:35Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "de387e8a419cf0f83276eb4e5a4d82c4be90bfb25d53d0ac927d08a4ae109d67"
+        },
+        "TGGAT7GHJXDGGG9M": {
+          "key": "TGGA-T7GH-JXDG-GG9M",
+          "note": "",
+          "created": "2026-11-05T02:09:35Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "52568e37c6d9e07b602f375aaa899f6bc350d1a53d4942f45325fca7317d7c64"
+        },
+        "G9QQYR4NVUJH963P": {
+          "key": "G9QQ-YR4N-VUJH-963P",
+          "note": "",
+          "created": "2026-11-05T02:09:35Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "7e440d88f4953869f70f6ef67192a4e7a1bda11aa80d4641617cf0a121358ac3"
+        },
+        "MQKHTURVJPDYT7V6": {
+          "key": "MQKH-TURV-JPDY-T7V6",
+          "note": "",
+          "created": "2026-11-05T02:09:35Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "810a046f51b95c92935de43d6bedfa610e137223ce94b1ec8f95b41b79aaaf95"
+        },
+        "RJPHAQAAVQWQWU9A": {
+          "key": "RJPH-AQAA-VQWQ-WU9A",
+          "note": "",
+          "created": "2026-11-05T02:09:35Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "c713ab6df80f0f6441e88604323d0ca76c43b0b17842acfa183f308da499519f"
         }
       }
     },
@@ -405,5 +545,5 @@
       "keys": {}
     }
   },
-  "sig": "6750ca3151d5af5ca0b19bae280802795173be4732dd40200ff35ab3cbe1d190"
+  "sig": "7f0aec3b0defed9dff097113fd0a1ba9b325d55f17dbc2e42330fd065e99f1f2"
 }
