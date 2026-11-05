@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-05T02:10:58Z",
+  "updated": "2026-11-05T02:26:04Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -229,6 +229,20 @@
           "revoked": false,
           "last_used": "2026-11-05T02:10:58Z",
           "sig_v2": "c713ab6df80f0f6441e88604323d0ca76c43b0b17842acfa183f308da499519f"
+        },
+        "FWY4YKY6J9DYF7CN": {
+          "key": "FWY4-YKY6-J9DY-F7CN",
+          "note": "",
+          "created": "2026-11-05T02:26:01Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "1a7222556f90688ebca08c1b845f9db349619c3d1e3ce689424f6a9274647924"
         }
       }
     },
@@ -545,5 +559,5 @@
       "keys": {}
     }
   },
-  "sig": "fc6e18a15c41d598bc2f91c36b306af29b1f799aa8728a8548cd3259919571be"
+  "sig": "2375b8013866b06229ebda83c8e4ecee357b1c826ec6fd90463d1d45a48410a2"
 }
