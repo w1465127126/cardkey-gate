@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-05T03:10:42Z",
+  "updated": "2026-11-05T03:24:11Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -241,7 +241,7 @@
           "bind_on_first_use": false,
           "machine": "",
           "revoked": false,
-          "last_used": "2026-11-05T03:10:42Z",
+          "last_used": "2026-11-05T02:29:02Z",
           "sig_v2": "1a7222556f90688ebca08c1b845f9db349619c3d1e3ce689424f6a9274647924"
         }
       }
@@ -557,7 +557,26 @@
     "CJCRACK": {
       "name": "阿尔比恩",
       "keys": {}
+    },
+    "ALBION_FiSH": {
+      "name": "ALBION_FiSH",
+      "keys": {
+        "UJE9RQYMRA4TYMCK": {
+          "key": "UJE9-RQYM-RA4T-YMCK",
+          "note": "",
+          "created": "2026-11-05T03:24:08Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "213a15f03c55cfc815f86fcbc538899b23b47c97d0754e6ca58b82780aa9fe9c"
+        }
+      }
     }
   },
-  "sig": "05a33494ea426965d1819cb6320ef00cf2fdd30dd23d9b9c4285d511a1a8c207"
+  "sig": "4aa866b2f5c06ce7f394de6afe734e654b9387fffed4fb7400a31433fa5f2cee"
 }
