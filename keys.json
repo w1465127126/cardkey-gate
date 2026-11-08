@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-08T08:15:13Z",
+  "updated": "2026-11-08T08:56:11Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -618,7 +618,25 @@
           "sig_v2": "213a15f03c55cfc815f86fcbc538899b23b47c97d0754e6ca58b82780aa9fe9c"
         }
       }
+    },
+    "LDDY": {
+      "name": "AR-Radar",
+      "keys": {
+        "EYD4NEG9XRTQGUFE": {
+          "key": "EYD4-NEG9-XRTQ-GUFE",
+          "note": "验收卡",
+          "created": "2026-11-08T08:56:11Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        }
+      }
     }
   },
-  "sig": "ba0c63dea9f520aa71ed98c658171c225bafaa68e7202482a57751e37e30c2e3"
+  "sig": "6cbd44e2319b6d2c76250682f264c1c5d78c38884a3db5ebe6b9d78614f1f6f0"
 }
