@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-08T09:21:41Z",
+  "updated": "2026-11-08T09:21:58Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -621,23 +621,8 @@
     },
     "LDDY": {
       "name": "阿尔比恩",
-      "keys": {
-        "4YMGWKQEUWTHNTTF": {
-          "key": "4YMG-WKQE-UWTH-NTTF",
-          "note": "",
-          "created": "2026-11-08T09:19:35Z",
-          "expire": null,
-          "max_uses": 1,
-          "uses": 1,
-          "bind_machine": "",
-          "bind_on_first_use": true,
-          "machine": "B6A0-722D-CDB6-5BCE",
-          "revoked": true,
-          "last_used": "2026-11-08T09:19:53Z",
-          "sig_v2": "09665b1a9ff027685930dda44a31a5e40c4b8eb47afa6682416efb12a750c4b0"
-        }
-      }
+      "keys": {}
     }
   },
-  "sig": "b733c90d78c882359e96199609249b12d56d59357de7d01b0f1b93d0d332f944"
+  "sig": "9b495e4ba75049fd8ec8a51b84966bbd270eedd58c5c20da9d4eb8e6c04a1453"
 }
