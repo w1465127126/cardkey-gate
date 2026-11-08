@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-08T09:00:52Z",
+  "updated": "2026-11-08T09:10:59Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -621,8 +621,22 @@
     },
     "LDDY": {
       "name": "AR-Radar",
-      "keys": {}
+      "keys": {
+        "7WUMWWERHNEJX37M": {
+          "key": "7WUM-WWER-HNEJ-X37M",
+          "note": "验收卡v2",
+          "created": "2026-11-08T09:10:59Z",
+          "expire": null,
+          "max_uses": 3,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        }
+      }
     }
   },
-  "sig": "486c266425235ecf29a8c717e7a200b6b78d5e694fde05051fe205f8c95a0292"
+  "sig": "ae052a70c77bd37f89238dd31d376f943e18c355f0f58d132edee120c351bf93"
 }
