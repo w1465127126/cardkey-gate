@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-08T09:19:12Z",
+  "updated": "2026-11-08T09:19:38Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -620,9 +620,24 @@
       }
     },
     "LDDY": {
-      "name": "AR-Radar",
-      "keys": {}
+      "name": "阿尔比恩",
+      "keys": {
+        "4YMGWKQEUWTHNTTF": {
+          "key": "4YMG-WKQE-UWTH-NTTF",
+          "note": "",
+          "created": "2026-11-08T09:19:35Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "27a7a584986d2cd01af0c1db958f1459f96984e65c227722355ca9dc94d88bea"
+        }
+      }
     }
   },
-  "sig": "486c266425235ecf29a8c717e7a200b6b78d5e694fde05051fe205f8c95a0292"
+  "sig": "e03bc3a552fa72f1254a960550e6c0863623e0339d9ee7d2e6dabbcc81117007"
 }
