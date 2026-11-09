@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-09T04:47:45Z",
+  "updated": "2026-11-09T06:03:23Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -570,6 +570,20 @@
           "revoked": false,
           "last_used": "",
           "sig_v2": "6e131668bc576eb1d8919b3c55a04f2dbb5fbc818bf3a1e398dc70f3d000c474"
+        },
+        "XXRWGKJKTEWP79MA": {
+          "key": "XXRW-GKJK-TEWP-79MA",
+          "note": "",
+          "created": "2026-11-09T06:03:20Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "261a425aa0bb08ea9d855a506b6c2f6acf87f4f0d706f90783ef089fb36d53a1"
         }
       }
     },
@@ -653,5 +667,5 @@
       }
     }
   },
-  "sig": "5c6d9869a55d7582caabad6639f0bba00ff72d18ded67f372e97ba18cd846f95"
+  "sig": "878bf088b13204cfd99ba2f7d7947caca79c8628a3f25602dfa530d0a6dd7b16"
 }
