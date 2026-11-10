@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-10T11:43:02Z",
+  "updated": "2026-11-10T11:50:23Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -707,7 +707,25 @@
           "sig_v2": "60b194bdc04a139fcf56e3f435b7caa518471e0a3192cd9ceefe617f4644bace"
         }
       }
+    },
+    "POKE": {
+      "name": "PokeLoop",
+      "keys": {
+        "3Y4H4E4M3J3CTHAE": {
+          "key": "3Y4H-4E4M-3J3C-THAE",
+          "note": "POKE-gate验收",
+          "created": "2026-11-10T11:50:23Z",
+          "expire": "2026-12-10T11:50:23Z",
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": ""
+        }
+      }
     }
   },
-  "sig": "bb833174ea6ecc4ef41ec3cd3dd9abe35418d2ef4db470e1f71e9141c116289b"
+  "sig": "b292c50cb0c24f2de91e199c9975767b1d71a00fbd3a0cb256f1b44082280dbb"
 }
