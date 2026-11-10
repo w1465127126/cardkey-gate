@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-09T15:56:07Z",
+  "updated": "2026-11-10T06:33:41Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -691,9 +691,23 @@
           "revoked": false,
           "last_used": "",
           "sig_v2": "6ed09da1606de7957ca252c6face45bcbb8ae5093f49812834296c127b24eb29"
+        },
+        "R4KDHTFR3YC9VNPX": {
+          "key": "R4KD-HTFR-3YC9-VNPX",
+          "note": "自用",
+          "created": "2026-11-10T06:33:39Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "60b194bdc04a139fcf56e3f435b7caa518471e0a3192cd9ceefe617f4644bace"
         }
       }
     }
   },
-  "sig": "2d6b6838e2f0c93298a34e2a5ffa140c9d34ac33acaee7e30970b1dae46f1dc4"
+  "sig": "73da0c5b7a260050db0c981b8a0fa200cb573f94a35cfab6f26c155a36734b33"
 }
