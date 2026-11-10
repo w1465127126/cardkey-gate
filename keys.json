@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-10T15:24:37Z",
+  "updated": "2026-11-10T15:51:49Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -738,9 +738,149 @@
           "revoked": false,
           "last_used": "",
           "sig_v2": "65daef64d538d2cf3b4df30ae78476875fb4749dee5c594a8cd412ba98c3e38a"
+        },
+        "6HCUYAKNVDVGYDUF": {
+          "key": "6HCU-YAKN-VDVG-YDUF",
+          "note": "",
+          "created": "2026-11-10T15:51:44Z",
+          "expire": "2026-12-13T15:51:44Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "1f3e2033a2a4b64bc047c4fc2203af2e49dcc4039dfc666c43bb2dab9fd9a2f4"
+        },
+        "XKNXNJ4RYRFXTP3A": {
+          "key": "XKNX-NJ4R-YRFX-TP3A",
+          "note": "",
+          "created": "2026-11-10T15:51:44Z",
+          "expire": "2026-12-13T15:51:44Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "ca9f0cb1a1994a77f3f84595809673d598cd2c4367eeef857a0c64f94cf8bced"
+        },
+        "6FYPT74VXYWM6H4N": {
+          "key": "6FYP-T74V-XYWM-6H4N",
+          "note": "",
+          "created": "2026-11-10T15:51:44Z",
+          "expire": "2026-12-13T15:51:44Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "ddf486c255212944e816c89ee1697d95fb8f41059d58dff790be883c584b097e"
+        },
+        "MY4GA4U6XXAWWEUU": {
+          "key": "MY4G-A4U6-XXAW-WEUU",
+          "note": "",
+          "created": "2026-11-10T15:51:44Z",
+          "expire": "2026-12-13T15:51:44Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "5d29f57db46766e114d35e56bcb139b894336efc6012705f28c21a4e25191cb2"
+        },
+        "7UDJWHF96W9KTN4D": {
+          "key": "7UDJ-WHF9-6W9K-TN4D",
+          "note": "",
+          "created": "2026-11-10T15:51:44Z",
+          "expire": "2026-12-13T15:51:44Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "3467281ef10d6abaa9e5e3ba73b180fca2b9cae6dd63f01a6e1406236ab6e35c"
+        },
+        "GT667KY4YDP94WJD": {
+          "key": "GT66-7KY4-YDP9-4WJD",
+          "note": "",
+          "created": "2026-11-10T15:51:44Z",
+          "expire": "2026-12-13T15:51:44Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "4c722e4faf41269426131740ba56ebd66198610ac4982160c623f4afaf8d7038"
+        },
+        "H9AXU6FMFRAPT6W9": {
+          "key": "H9AX-U6FM-FRAP-T6W9",
+          "note": "",
+          "created": "2026-11-10T15:51:44Z",
+          "expire": "2026-12-13T15:51:44Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "29633a814f60358d1e44ab9ee5ab49c96c529e8ea7d066c98693aaf75ffe97a0"
+        },
+        "PT7YFWQYNJ4VANDD": {
+          "key": "PT7Y-FWQY-NJ4V-ANDD",
+          "note": "",
+          "created": "2026-11-10T15:51:44Z",
+          "expire": "2026-12-13T15:51:44Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "119ab591b8ab68d0a3058a6f6e7bb8bac56ceaa91e0e8870a41d4104227bfa42"
+        },
+        "NPKJGJF99JF4FMQA": {
+          "key": "NPKJ-GJF9-9JF4-FMQA",
+          "note": "",
+          "created": "2026-11-10T15:51:44Z",
+          "expire": "2026-12-13T15:51:44Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "77aa363f79ae11b7eace23da889daa77c46eafd9b32e679e1cf7c7a72de455e3"
+        },
+        "HVM3G3KUX9Y3NVDJ": {
+          "key": "HVM3-G3KU-X9Y3-NVDJ",
+          "note": "",
+          "created": "2026-11-10T15:51:44Z",
+          "expire": "2026-12-13T15:51:44Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "f99ccf458c3e4d097187bc234d027e041255c07d90edaead8927f17e0b9e94c3"
         }
       }
     }
   },
-  "sig": "04ae06102780c5dd081ec16837c354b9c04a0acdc8afa1f96cd8dc68f6b89871"
+  "sig": "5f02b48c9a30b03f833fa21d458d13a62211bfa625dd75e629d76f486a14195d"
 }
