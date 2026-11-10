@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-10T15:52:18Z",
+  "updated": "2026-11-10T18:09:43Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -705,6 +705,20 @@
           "revoked": false,
           "last_used": "2026-11-10T06:33:51Z",
           "sig_v2": "60b194bdc04a139fcf56e3f435b7caa518471e0a3192cd9ceefe617f4644bace"
+        },
+        "FJP77YUGUDTP99CC": {
+          "key": "FJP7-7YUG-UDTP-99CC",
+          "note": "",
+          "created": "2026-11-10T18:09:41Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "6ec8421e89cbcb0ba7921cbf6386934ba238cb7c16ec6a0b3abb78364d46e49e"
         }
       }
     },
@@ -1022,5 +1036,5 @@
       }
     }
   },
-  "sig": "f559f87e5fc40730e1185b7b8d77bd95cdfe4101c2b5a994b01030ab8e9cac22"
+  "sig": "384dee3439db36bac3e49f532bcd8fb9f2d1a3a93321f14c240b5533b9589564"
 }
