@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-10T11:57:41Z",
+  "updated": "2026-11-10T11:58:10Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -710,8 +710,23 @@
     },
     "POKE": {
       "name": "PokeLoop",
-      "keys": {}
+      "keys": {
+        "VPRA6K7KXX6Y9JYG": {
+          "key": "VPRA-6K7K-XX6Y-9JYG",
+          "note": "",
+          "created": "2026-11-10T11:58:05Z",
+          "expire": null,
+          "max_uses": 1,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "bb63caf5b1304232b90327a24caabb668630be11293cf108c0d4fa71aae5c5d6"
+        }
+      }
     }
   },
-  "sig": "91f078041a804d70d63efec9d9784a98face652fda06541f92b778c4c31b5208"
+  "sig": "d8ec8720b7f6ec66c58ee1678bd95cf7843846f1d0a24ad5388e94fb3c6fc3f7"
 }
