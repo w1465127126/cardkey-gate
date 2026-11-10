@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-10T11:58:47Z",
+  "updated": "2026-11-10T12:33:12Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -709,9 +709,24 @@
       }
     },
     "POKE": {
-      "name": "PokeLoop",
-      "keys": {}
+      "name": "阿尔比恩",
+      "keys": {
+        "YNYDNEKP3HN67MQW": {
+          "key": "YNYD-NEKP-3HN6-7MQW",
+          "note": "",
+          "created": "2026-11-10T12:33:10Z",
+          "expire": null,
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": true,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "1c4da4f81be5832540275cf20220d83ab1b0ecbd692cc0b4a6791e0629a4e1b5"
+        }
+      }
     }
   },
-  "sig": "91f078041a804d70d63efec9d9784a98face652fda06541f92b778c4c31b5208"
+  "sig": "1a978f4a9717a5bf10be0582d7092bb90b5a0f824ae6e12da69cce1b4e941e0f"
 }
