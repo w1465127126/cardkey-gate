@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-10T18:20:33Z",
+  "updated": "2026-11-11T01:20:14Z",
   "note": "created by CardKeyManager",
   "apps": {
     "LEIDA": {
@@ -719,6 +719,20 @@
           "revoked": false,
           "last_used": "2026-11-10T18:20:33Z",
           "sig_v2": "6ec8421e89cbcb0ba7921cbf6386934ba238cb7c16ec6a0b3abb78364d46e49e"
+        },
+        "WHQT3TMXHGXNF7AV": {
+          "key": "WHQT-3TMX-HGXN-F7AV",
+          "note": "",
+          "created": "2026-11-11T01:20:11Z",
+          "expire": "2026-11-12T01:20:11Z",
+          "max_uses": 0,
+          "uses": 0,
+          "bind_machine": "",
+          "bind_on_first_use": false,
+          "machine": "",
+          "revoked": false,
+          "last_used": "",
+          "sig_v2": "f4d03428c64a725542059f17c1c4d2478592dd45e75c2d7e1b80c410d6ab97d9"
         }
       }
     },
@@ -1036,5 +1050,5 @@
       }
     }
   },
-  "sig": "775f70a0745c3d7e26e0401313940b6f57aa3179be2d49ca3953a2de20801cd3"
+  "sig": "c22183037a5770c2ee8cce8a10b447551e38dffc5b53a44e362d76a5724d26fe"
 }
